@@ -15,9 +15,9 @@ from datetime import datetime
 sys.stdout = io.TextIOWrapper(sys.stdout.buffer, encoding='utf-8', errors='replace')
 sys.stderr = io.TextIOWrapper(sys.stderr.buffer, encoding='utf-8', errors='replace')
 
-from egi_calculator import EGICalculator, analyze_multiple_companies
-from backtester import EGIBacktester
-from visualizer import create_egi_analysis_chart, create_backtest_chart
+from src.egi_calculator import EGICalculator, analyze_multiple_companies
+from src.backtester import EGIBacktester
+from src.visualizer import create_egi_analysis_chart, create_backtest_chart
 
 
 # ============================================
@@ -50,7 +50,7 @@ def run_full_pipeline(tickers: list = None, start_date: str = '2019-01-01',
     if tickers is None:
         tickers = list(ANALYSIS_TICKERS.keys())
 
-    output_dir = 'c:/stock'
+    output_dir = 'c:/stock/results'
     os.makedirs(output_dir, exist_ok=True)
 
     print("+" + "=" * 65 + "+")

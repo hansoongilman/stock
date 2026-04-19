@@ -30,7 +30,7 @@ let DATA = null;
 // ─── Load Data ───
 async function loadData() {
     try {
-        const resp = await fetch('../results.json');
+        const resp = await fetch('../results/results.json');
         if (!resp.ok) throw new Error(`HTTP ${resp.status}`);
         DATA = await resp.json();
         renderAll();
