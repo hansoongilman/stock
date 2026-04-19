@@ -1,0 +1,4206 @@
+{
+  "generated_at": "2026-03-22T13:56:46.382308",
+  "companies": [
+    {
+      "ticker": "AAPL",
+      "company_name": "Apple Inc.",
+      "egi_data": [
+        {
+          "year": 2021,
+          "operating_income": 0.0,
+          "rnd_investment": 0.0,
+          "cash_change": 0.0,
+          "total_gain": 0.0,
+          "sga": 0.0,
+          "inventory_loss": 0.0,
+          "non_operating_expense": 2645000000.0,
+          "total_loss": 2645000000.0,
+          "egi": 0.0
+        },
+        {
+          "year": 2022,
+          "operating_income": 119437000000.0,
+          "rnd_investment": 26251000000.0,
+          "cash_change": 23646000000.0,
+          "total_gain": 169334000000.0,
+          "sga": 25094000000.0,
+          "inventory_loss": 0.0,
+          "non_operating_expense": 3265000000.0,
+          "total_loss": 28359000000.0,
+          "egi": 597.1085017102155
+        },
+        {
+          "year": 2023,
+          "operating_income": 114301000000.0,
+          "rnd_investment": 29915000000.0,
+          "cash_change": 6319000000.0,
+          "total_gain": 150535000000.0,
+          "sga": 24932000000.0,
+          "inventory_loss": 0.0,
+          "non_operating_expense": 4498000000.0,
+          "total_loss": 29430000000.0,
+          "egi": 511.50186884131836
+        },
+        {
+          "year": 2024,
+          "operating_income": 123216000000.0,
+          "rnd_investment": 31370000000.0,
+          "cash_change": 0.0,
+          "total_gain": 154586000000.0,
+          "sga": 26097000000.0,
+          "inventory_loss": 0.0,
+          "non_operating_expense": 0.0,
+          "total_loss": 26097000000.0,
+          "egi": 592.3516112963176
+        },
+        {
+          "year": 2025,
+          "operating_income": 133050000000.0,
+          "rnd_investment": 34550000000.0,
+          "cash_change": 5991000000.0,
+          "total_gain": 173591000000.0,
+          "sga": 27601000000.0,
+          "inventory_loss": 1568000000.0,
+          "non_operating_expense": 321000000.0,
+          "total_loss": 29490000000.0,
+          "egi": 588.6436080027128
+        }
+      ],
+      "slope_analysis": {
+        "slope": 117.253,
+        "intercept": -236744.9637,
+        "r_squared": 0.5147,
+        "p_value": 0.1724,
+        "acceleration": -200.2722,
+        "trend": "steady_growth",
+        "std_err": 65.73
+      },
+      "threshold_result": {
+        "signal": "BUY",
+        "latest_egi": 588.64,
+        "details": [
+          "🔵 EGI 588.6% > 150% 하지만 가속도 감소 → 신중한 매수"
+        ]
+      },
+      "risk_factors": [
+        "⚠️ EGI 변동성 높음 (변이계수 56.4%) - 안정적 성장 불확실",
+        "⚠️ 재고 자산 손실 급증 - 재고 관리 리스크"
+      ],
+      "investment_verdict": {
+        "score": 42,
+        "verdict": "🟠 주의 (CAUTION)",
+        "verdict_class": "caution",
+        "reasons": [
+          "EGI 588.6% - 매우 높은 효율성",
+          "추세: 안정적 성장",
+          "가속도 강한 음수 - 급격한 효율 저하",
+          "리스크 2건 감지 (-10점)"
+        ],
+        "signal": "BUY"
+      }
+    },
+    {
+      "ticker": "GOOGL",
+      "company_name": "Alphabet Inc.",
+      "egi_data": [
+        {
+          "year": 2022,
+          "operating_income": 74842000000.0,
+          "rnd_investment": 39500000000.0,
+          "cash_change": 21879000000.0,
+          "total_gain": 136221000000.0,
+          "sga": 42291000000.0,
+          "inventory_loss": 0.0,
+          "non_operating_expense": 357000000.0,
+          "total_loss": 42648000000.0,
+          "egi": 319.40770962296006
+        },
+        {
+          "year": 2023,
+          "operating_income": 84293000000.0,
+          "rnd_investment": 45427000000.0,
+          "cash_change": 2169000000.0,
+          "total_gain": 131889000000.0,
+          "sga": 44342000000.0,
+          "inventory_loss": 2670000000.0,
+          "non_operating_expense": 308000000.0,
+          "total_loss": 47320000000.0,
+          "egi": 278.71724429416736
+        },
+        {
+          "year": 2024,
+          "operating_income": 112390000000.0,
+          "rnd_investment": 49326000000.0,
+          "cash_change": 0.0,
+          "total_gain": 161716000000.0,
+          "sga": 41996000000.0,
+          "inventory_loss": 0.0,
+          "non_operating_expense": 268000000.0,
+          "total_loss": 42264000000.0,
+          "egi": 382.6329736891918
+        },
+        {
+          "year": 2025,
+          "operating_income": 129039000000.0,
+          "rnd_investment": 61087000000.0,
+          "cash_change": 7242000000.0,
+          "total_gain": 197368000000.0,
+          "sga": 50175000000.0,
+          "inventory_loss": 0.0,
+          "non_operating_expense": 736000000.0,
+          "total_loss": 50911000000.0,
+          "egi": 387.6726051344503
+        }
+      ],
+      "slope_analysis": {
+        "slope": 30.871,
+        "intercept": -62125.445,
+        "r_squared": 0.5774,
+        "p_value": 0.2401,
+        "acceleration": 22.865,
+        "trend": "accelerating_growth",
+        "std_err": 18.6735
+      },
+      "threshold_result": {
+        "signal": "STRONG_BUY",
+        "latest_egi": 387.67,
+        "details": [
+          "🟢 EGI 387.7% > 150% + 가속도 양수 → 강력한 성장 시그널"
+        ]
+      },
+      "risk_factors": [
+        "⚠️ 판매비/관리비 급증 (19.5% 증가) - 비용 통제 실패 가능성",
+        "⚠️ 총 비용 급증 (20.5% 증가) - 지표 불안정 위험"
+      ],
+      "investment_verdict": {
+        "score": 70,
+        "verdict": "✅ 투자 적격 (INVEST)",
+        "verdict_class": "invest",
+        "reasons": [
+          "EGI 387.7% - 매우 높은 효율성",
+          "추세: 가속 성장 중",
+          "가속도 강한 양수 - 최적화 진행 중",
+          "리스크 2건 감지 (-10점)"
+        ],
+        "signal": "STRONG_BUY"
+      }
+    },
+    {
+      "ticker": "TSLA",
+      "company_name": "Tesla, Inc.",
+      "egi_data": [
+        {
+          "year": 2022,
+          "operating_income": 13832000000.0,
+          "rnd_investment": 3075000000.0,
+          "cash_change": 16253000000.0,
+          "total_gain": 33160000000.0,
+          "sga": 3946000000.0,
+          "inventory_loss": 0.0,
+          "non_operating_expense": 234000000.0,
+          "total_loss": 4180000000.0,
+          "egi": 793.3014354066986
+        },
+        {
+          "year": 2023,
+          "operating_income": 8891000000.0,
+          "rnd_investment": 3969000000.0,
+          "cash_change": 145000000.0,
+          "total_gain": 13005000000.0,
+          "sga": 4800000000.0,
+          "inventory_loss": 0.0,
+          "non_operating_expense": 156000000.0,
+          "total_loss": 4956000000.0,
+          "egi": 262.409200968523
+        },
+        {
+          "year": 2024,
+          "operating_income": 7760000000.0,
+          "rnd_investment": 4540000000.0,
+          "cash_change": 0.0,
+          "total_gain": 12300000000.0,
+          "sga": 5150000000.0,
+          "inventory_loss": 1609000000.0,
+          "non_operating_expense": 350000000.0,
+          "total_loss": 7109000000.0,
+          "egi": 173.02011534674358
+        },
+        {
+          "year": 2025,
+          "operating_income": 4849000000.0,
+          "rnd_investment": 6411000000.0,
+          "cash_change": 374000000.0,
+          "total_gain": 11634000000.0,
+          "sga": 5834000000.0,
+          "inventory_loss": 0.0,
+          "non_operating_expense": 757000000.0,
+          "total_loss": 6591000000.0,
+          "egi": 176.51342740100137
+        }
+      ],
+      "slope_analysis": {
+        "slope": -193.9753,
+        "intercept": 392860.3528,
+        "r_squared": 0.7083,
+        "p_value": 0.1584,
+        "acceleration": 267.1928,
+        "trend": "sharp_decline",
+        "std_err": 88.0164
+      },
+      "threshold_result": {
+        "signal": "STRONG_BUY",
+        "latest_egi": 176.51,
+        "details": [
+          "🟢 EGI 176.5% > 150% + 가속도 양수 → 강력한 성장 시그널"
+        ]
+      },
+      "risk_factors": [
+        "⚠️ EGI 변동성 높음 (변이계수 84.7%) - 안정적 성장 불확실"
+      ],
+      "investment_verdict": {
+        "score": 40,
+        "verdict": "🟠 주의 (CAUTION)",
+        "verdict_class": "caution",
+        "reasons": [
+          "EGI 176.5% - 높은 효율성",
+          "추세: 급격한 하락",
+          "가속도 강한 양수 - 최적화 진행 중",
+          "리스크 1건 감지 (-5점)"
+        ],
+        "signal": "STRONG_BUY"
+      }
+    },
+    {
+      "ticker": "NVDA",
+      "company_name": "NVIDIA Corporation",
+      "egi_data": [
+        {
+          "year": 2023,
+          "operating_income": 5577000000.0,
+          "rnd_investment": 7339000000.0,
+          "cash_change": 3389000000.0,
+          "total_gain": 16305000000.0,
+          "sga": 2440000000.0,
+          "inventory_loss": 0.0,
+          "non_operating_expense": 310000000.0,
+          "total_loss": 2750000000.0,
+          "egi": 592.9090909090909
+        },
+        {
+          "year": 2024,
+          "operating_income": 32972000000.0,
+          "rnd_investment": 8675000000.0,
+          "cash_change": 3891000000.0,
+          "total_gain": 45538000000.0,
+          "sga": 2654000000.0,
+          "inventory_loss": 0.0,
+          "non_operating_expense": 257000000.0,
+          "total_loss": 2911000000.0,
+          "egi": 1564.3421504637581
+        },
+        {
+          "year": 2025,
+          "operating_income": 81453000000.0,
+          "rnd_investment": 12914000000.0,
+          "cash_change": 1309000000.0,
+          "total_gain": 95676000000.0,
+          "sga": 3491000000.0,
+          "inventory_loss": 0.0,
+          "non_operating_expense": 247000000.0,
+          "total_loss": 3738000000.0,
+          "egi": 2559.550561797753
+        },
+        {
+          "year": 2026,
+          "operating_income": 130387000000.0,
+          "rnd_investment": 18497000000.0,
+          "cash_change": 2016000000.0,
+          "total_gain": 150900000000.0,
+          "sga": 4579000000.0,
+          "inventory_loss": 0.0,
+          "non_operating_expense": 259000000.0,
+          "total_loss": 4838000000.0,
+          "egi": 3119.057461761058
+        }
+      ],
+      "slope_analysis": {
+        "slope": 857.3654,
+        "intercept": -1733777.1911,
+        "r_squared": 0.9858,
+        "p_value": 0.0071,
+        "acceleration": -205.9631,
+        "trend": "steady_growth",
+        "std_err": 72.7851
+      },
+      "threshold_result": {
+        "signal": "BUY",
+        "latest_egi": 3119.06,
+        "details": [
+          "🔵 EGI 3119.1% > 150% 하지만 가속도 감소 → 신중한 매수"
+        ]
+      },
+      "risk_factors": [
+        "⚠️ 판매비/관리비 급증 (31.2% 증가) - 비용 통제 실패 가능성",
+        "⚠️ 총 비용 급증 (29.4% 증가) - 지표 불안정 위험",
+        "⚠️ EGI 변동성 높음 (변이계수 56.9%) - 안정적 성장 불확실"
+      ],
+      "investment_verdict": {
+        "score": 37,
+        "verdict": "🟠 주의 (CAUTION)",
+        "verdict_class": "caution",
+        "reasons": [
+          "EGI 3119.1% - 매우 높은 효율성",
+          "추세: 안정적 성장",
+          "가속도 강한 음수 - 급격한 효율 저하",
+          "리스크 3건 감지 (-15점)"
+        ],
+        "signal": "BUY"
+      }
+    },
+    {
+      "ticker": "META",
+      "company_name": "Meta Platforms, Inc.",
+      "egi_data": [
+        {
+          "year": 2022,
+          "operating_income": 28944000000.0,
+          "rnd_investment": 35338000000.0,
+          "cash_change": 14681000000.0,
+          "total_gain": 78963000000.0,
+          "sga": 27078000000.0,
+          "inventory_loss": 0.0,
+          "non_operating_expense": 505000000.0,
+          "total_loss": 27583000000.0,
+          "egi": 286.27415437044556
+        },
+        {
+          "year": 2023,
+          "operating_income": 46751000000.0,
+          "rnd_investment": 38483000000.0,
+          "cash_change": 27181000000.0,
+          "total_gain": 112415000000.0,
+          "sga": 23709000000.0,
+          "inventory_loss": 0.0,
+          "non_operating_expense": 596000000.0,
+          "total_loss": 24305000000.0,
+          "egi": 462.5180004114379
+        },
+        {
+          "year": 2024,
+          "operating_income": 69380000000.0,
+          "rnd_investment": 43873000000.0,
+          "cash_change": 2027000000.0,
+          "total_gain": 115280000000.0,
+          "sga": 21087000000.0,
+          "inventory_loss": 0.0,
+          "non_operating_expense": 715000000.0,
+          "total_loss": 21802000000.0,
+          "egi": 528.7588294651866
+        },
+        {
+          "year": 2025,
+          "operating_income": 83276000000.0,
+          "rnd_investment": 57372000000.0,
+          "cash_change": 0.0,
+          "total_gain": 140648000000.0,
+          "sga": 24143000000.0,
+          "inventory_loss": 0.0,
+          "non_operating_expense": 1165000000.0,
+          "total_loss": 25308000000.0,
+          "egi": 555.7452189031136
+        }
+      ],
+      "slope_analysis": {
+        "slope": 87.4654,
+        "intercept": -176527.9174,
+        "r_squared": 0.8679,
+        "p_value": 0.0684,
+        "acceleration": -74.6287,
+        "trend": "steady_growth",
+        "std_err": 24.1241
+      },
+      "threshold_result": {
+        "signal": "BUY",
+        "latest_egi": 555.75,
+        "details": [
+          "🔵 EGI 555.7% > 150% 하지만 가속도 감소 → 신중한 매수"
+        ]
+      },
+      "risk_factors": [
+        "✅ 주요 리스크 요인 감지되지 않음"
+      ],
+      "investment_verdict": {
+        "score": 52,
+        "verdict": "🟡 관망 추천 (WATCH)",
+        "verdict_class": "watch",
+        "reasons": [
+          "EGI 555.8% - 매우 높은 효율성",
+          "추세: 안정적 성장",
+          "가속도 강한 음수 - 급격한 효율 저하"
+        ],
+        "signal": "BUY"
+      }
+    },
+    {
+      "ticker": "JPM",
+      "company_name": "JPMorgan Chase & Co.",
+      "egi_data": [
+        {
+          "year": 2022,
+          "operating_income": 0.0,
+          "rnd_investment": 0.0,
+          "cash_change": 0.0,
+          "total_gain": 0.0,
+          "sga": 45547000000.0,
+          "inventory_loss": 0.0,
+          "non_operating_expense": 26097000000.0,
+          "total_loss": 71644000000.0,
+          "egi": 0.0
+        },
+        {
+          "year": 2023,
+          "operating_income": 0.0,
+          "rnd_investment": 0.0,
+          "cash_change": 56917000000.0,
+          "total_gain": 56917000000.0,
+          "sga": 51056000000.0,
+          "inventory_loss": 0.0,
+          "non_operating_expense": 81321000000.0,
+          "total_loss": 132377000000.0,
+          "egi": 42.99613981280736
+        },
+        {
+          "year": 2024,
+          "operating_income": 0.0,
+          "rnd_investment": 0.0,
+          "cash_change": 0.0,
+          "total_gain": 0.0,
+          "sga": 56331000000.0,
+          "inventory_loss": 0.0,
+          "non_operating_expense": 101350000000.0,
+          "total_loss": 157681000000.0,
+          "egi": 0.0
+        },
+        {
+          "year": 2025,
+          "operating_income": 0.0,
+          "rnd_investment": 0.0,
+          "cash_change": 0.0,
+          "total_gain": 0.0,
+          "sga": 60018000000.0,
+          "inventory_loss": 0.0,
+          "non_operating_expense": 97898000000.0,
+          "total_loss": 157916000000.0,
+          "egi": 0.0
+        }
+      ],
+      "slope_analysis": {
+        "slope": -4.2996,
+        "intercept": 8711.0179,
+        "r_squared": 0.0667,
+        "p_value": 0.7418,
+        "acceleration": -21.4981,
+        "trend": "declining",
+        "std_err": 11.3757
+      },
+      "threshold_result": {
+        "signal": "STRONG_SELL",
+        "latest_egi": 0.0,
+        "details": [
+          "🔴 EGI 0.0% < 80% 심각한 비효율 → 강력 매도"
+        ]
+      },
+      "risk_factors": [
+        "⚠️ EGI 변동성 높음 (변이계수 200.0%) - 안정적 성장 불확실"
+      ],
+      "investment_verdict": {
+        "score": 0,
+        "verdict": "🔴 회피 (AVOID)",
+        "verdict_class": "avoid",
+        "reasons": [
+          "EGI 0.0% - 비효율 상태",
+          "추세: 하락 추세",
+          "가속도 강한 음수 - 급격한 효율 저하",
+          "리스크 1건 감지 (-5점)"
+        ],
+        "signal": "STRONG_SELL"
+      }
+    },
+    {
+      "ticker": "JNJ",
+      "company_name": "Johnson & Johnson",
+      "egi_data": [
+        {
+          "year": 2022,
+          "operating_income": 21013000000.0,
+          "rnd_investment": 14135000000.0,
+          "cash_change": 12889000000.0,
+          "total_gain": 48037000000.0,
+          "sga": 20246000000.0,
+          "inventory_loss": 0.0,
+          "non_operating_expense": 1086000000.0,
+          "total_loss": 21332000000.0,
+          "egi": 225.18751171948247
+        },
+        {
+          "year": 2023,
+          "operating_income": 22009000000.0,
+          "rnd_investment": 15085000000.0,
+          "cash_change": 8970000000.0,
+          "total_gain": 46064000000.0,
+          "sga": 21512000000.0,
+          "inventory_loss": 0.0,
+          "non_operating_expense": 7406000000.0,
+          "total_loss": 28918000000.0,
+          "egi": 159.29179058026145
+        },
+        {
+          "year": 2024,
+          "operating_income": 21249000000.0,
+          "rnd_investment": 17232000000.0,
+          "cash_change": 2246000000.0,
+          "total_gain": 40727000000.0,
+          "sga": 22869000000.0,
+          "inventory_loss": 0.0,
+          "non_operating_expense": 755000000.0,
+          "total_loss": 23624000000.0,
+          "egi": 172.39671520487641
+        },
+        {
+          "year": 2025,
+          "operating_income": 25596000000.0,
+          "rnd_investment": 14665000000.0,
+          "cash_change": 0.0,
+          "total_gain": 40261000000.0,
+          "sga": 23676000000.0,
+          "inventory_loss": 0.0,
+          "non_operating_expense": 971000000.0,
+          "total_loss": 24647000000.0,
+          "egi": 163.3505091897594
+        }
+      ],
+      "slope_analysis": {
+        "slope": -17.2406,
+        "intercept": 35066.4275,
+        "r_squared": 0.5297,
+        "p_value": 0.2722,
+        "acceleration": 28.4248,
+        "trend": "sharp_decline",
+        "std_err": 11.4872
+      },
+      "threshold_result": {
+        "signal": "STRONG_BUY",
+        "latest_egi": 163.35,
+        "details": [
+          "🟢 EGI 163.4% > 150% + 가속도 양수 → 강력한 성장 시그널"
+        ]
+      },
+      "risk_factors": [
+        "✅ 주요 리스크 요인 감지되지 않음"
+      ],
+      "investment_verdict": {
+        "score": 45,
+        "verdict": "🟠 주의 (CAUTION)",
+        "verdict_class": "caution",
+        "reasons": [
+          "EGI 163.3% - 높은 효율성",
+          "추세: 급격한 하락",
+          "가속도 강한 양수 - 최적화 진행 중"
+        ],
+        "signal": "STRONG_BUY"
+      }
+    },
+    {
+      "ticker": "005930.KS",
+      "company_name": "Samsung Electronics Co., Ltd.",
+      "egi_data": [
+        {
+          "year": 2022,
+          "operating_income": 43376630000000.0,
+          "rnd_investment": 24919198000000.0,
+          "cash_change": 0.0,
+          "total_gain": 68295828000000.0,
+          "sga": 33560956000000.0,
+          "inventory_loss": 0.0,
+          "non_operating_expense": 797647000000.0,
+          "total_loss": 34358603000000.0,
+          "egi": 198.77358808796737
+        },
+        {
+          "year": 2023,
+          "operating_income": 6566976000000.0,
+          "rnd_investment": 28339724000000.0,
+          "cash_change": 19400183000000.0,
+          "total_gain": 54306883000000.0,
+          "sga": 32678162000000.0,
+          "inventory_loss": 561992000000.0,
+          "non_operating_expense": 930253000000.0,
+          "total_loss": 34170407000000.0,
+          "egi": 158.92957610952658
+        },
+        {
+          "year": 2024,
+          "operating_income": 32725961000000.0,
+          "rnd_investment": 34998142000000.0,
+          "cash_change": 0.0,
+          "total_gain": 67724103000000.0,
+          "sga": 35078235000000.0,
+          "inventory_loss": 0.0,
+          "non_operating_expense": 903918000000.0,
+          "total_loss": 35982153000000.0,
+          "egi": 188.2158163242761
+        },
+        {
+          "year": 2025,
+          "operating_income": 43601051000000.0,
+          "rnd_investment": 37740392000000.0,
+          "cash_change": 4150799000000.0,
+          "total_gain": 85492242000000.0,
+          "sga": 37849252000000.0,
+          "inventory_loss": 0.0,
+          "non_operating_expense": 605783000000.0,
+          "total_loss": 38455035000000.0,
+          "egi": 222.31742085269198
+        }
+      ],
+      "slope_analysis": {
+        "slope": 9.9918,
+        "intercept": -20026.2953,
+        "r_squared": 0.2408,
+        "p_value": 0.5093,
+        "acceleration": 36.9728,
+        "trend": "accelerating_growth",
+        "std_err": 12.5452
+      },
+      "threshold_result": {
+        "signal": "STRONG_BUY",
+        "latest_egi": 222.32,
+        "details": [
+          "🟢 EGI 222.3% > 150% + 가속도 양수 → 강력한 성장 시그널"
+        ]
+      },
+      "risk_factors": [
+        "✅ 주요 리스크 요인 감지되지 않음"
+      ],
+      "investment_verdict": {
+        "score": 80,
+        "verdict": "✅ 투자 적격 (INVEST)",
+        "verdict_class": "invest",
+        "reasons": [
+          "EGI 222.3% - 매우 높은 효율성",
+          "추세: 가속 성장 중",
+          "가속도 강한 양수 - 최적화 진행 중"
+        ],
+        "signal": "STRONG_BUY"
+      }
+    },
+    {
+      "ticker": "000660.KS",
+      "company_name": "SK hynix Inc.",
+      "egi_data": [
+        {
+          "year": 2022,
+          "operating_income": 6809417000000.0,
+          "rnd_investment": 4474553000000.0,
+          "cash_change": 4977007000000.0,
+          "total_gain": 16260977000000.0,
+          "sga": 2201083000000.0,
+          "inventory_loss": 0.0,
+          "non_operating_expense": 561067000000.0,
+          "total_loss": 2762150000000.0,
+          "egi": 588.7072389261988
+        },
+        {
+          "year": 2023,
+          "operating_income": -7730313000000.0,
+          "rnd_investment": 3750707000000.0,
+          "cash_change": 2610322000000.0,
+          "total_gain": -1369284000000.0,
+          "sga": 1687940000000.0,
+          "inventory_loss": 2184048000000.0,
+          "non_operating_expense": 1664988000000.0,
+          "total_loss": 5536976000000.0,
+          "egi": -24.72981641964856
+        },
+        {
+          "year": 2024,
+          "operating_income": 23467319000000.0,
+          "rnd_investment": 4436341000000.0,
+          "cash_change": 3617788000000.0,
+          "total_gain": 31521448000000.0,
+          "sga": 1730058000000.0,
+          "inventory_loss": 166722000000.0,
+          "non_operating_expense": 1361561000000.0,
+          "total_loss": 3258341000000.0,
+          "egi": 967.4078925440891
+        },
+        {
+          "year": 2025,
+          "operating_income": 47206319000000.0,
+          "rnd_investment": 6465637000000.0,
+          "cash_change": 3718649000000.0,
+          "total_gain": 57390605000000.0,
+          "sga": 1916619000000.0,
+          "inventory_loss": 0.0,
+          "non_operating_expense": 923703000000.0,
+          "total_loss": 2840322000000.0,
+          "egi": 2020.5668582646617
+        }
+      ],
+      "slope_analysis": {
+        "slope": 528.7717,
+        "intercept": -1069081.4593,
+        "r_squared": 0.6321,
+        "p_value": 0.205,
+        "acceleration": 833.298,
+        "trend": "accelerating_growth",
+        "std_err": 285.2486
+      },
+      "threshold_result": {
+        "signal": "STRONG_BUY",
+        "latest_egi": 2020.57,
+        "details": [
+          "🟢 EGI 2020.6% > 150% + 가속도 양수 → 강력한 성장 시그널"
+        ]
+      },
+      "risk_factors": [
+        "⚠️ EGI 변동성 높음 (변이계수 96.7%) - 안정적 성장 불확실"
+      ],
+      "investment_verdict": {
+        "score": 75,
+        "verdict": "✅ 투자 적격 (INVEST)",
+        "verdict_class": "invest",
+        "reasons": [
+          "EGI 2020.6% - 매우 높은 효율성",
+          "추세: 가속 성장 중",
+          "가속도 강한 양수 - 최적화 진행 중",
+          "리스크 1건 감지 (-5점)"
+        ],
+        "signal": "STRONG_BUY"
+      }
+    },
+    {
+      "ticker": "035420.KS",
+      "company_name": "NAVER Corporation",
+      "egi_data": [
+        {
+          "year": 2022,
+          "operating_income": 1304664410810.0,
+          "rnd_investment": 0.0,
+          "cash_change": 2724168321700.0,
+          "total_gain": 4028832732510.0,
+          "sga": 4565796194000.0,
+          "inventory_loss": 0.0,
+          "non_operating_expense": 296967588000.0,
+          "total_loss": 4862763782000.0,
+          "egi": 82.85067737452356
+        },
+        {
+          "year": 2023,
+          "operating_income": 1488820269580.0,
+          "rnd_investment": 0.0,
+          "cash_change": 852288211620.0,
+          "total_gain": 2341108481200.0,
+          "sga": 5380657415000.0,
+          "inventory_loss": 0.0,
+          "non_operating_expense": 169121859000.0,
+          "total_loss": 5549779274000.0,
+          "egi": 42.183812465619866
+        },
+        {
+          "year": 2024,
+          "operating_income": 1979263438640.0,
+          "rnd_investment": 0.0,
+          "cash_change": 619068104530.0,
+          "total_gain": 2598331543170.0,
+          "sga": 5820377753000.0,
+          "inventory_loss": 0.0,
+          "non_operating_expense": 104881380000.0,
+          "total_loss": 5925259133000.0,
+          "egi": 43.85177905045389
+        },
+        {
+          "year": 2025,
+          "operating_income": 2208138388970.0,
+          "rnd_investment": 0.0,
+          "cash_change": 1788494161890.0,
+          "total_gain": 3996632550860.0,
+          "sga": 6605255938000.0,
+          "inventory_loss": 1508375980.0,
+          "non_operating_expense": 132351906000.0,
+          "total_loss": 6739116219980.0,
+          "egi": 59.30499520116395
+        }
+      ],
+      "slope_analysis": {
+        "slope": -6.8969,
+        "intercept": 14012.9411,
+        "r_squared": 0.2231,
+        "p_value": 0.5276,
+        "acceleration": 28.06,
+        "trend": "sharp_decline",
+        "std_err": 9.1001
+      },
+      "threshold_result": {
+        "signal": "STRONG_SELL",
+        "latest_egi": 59.3,
+        "details": [
+          "🔴 EGI 59.3% < 80% 심각한 비효율 → 강력 매도"
+        ]
+      },
+      "risk_factors": [
+        "⚠️ EGI 변동성 높음 (변이계수 33.0%) - 안정적 성장 불확실",
+        "⚠️ 재고 자산 손실 급증 - 재고 관리 리스크"
+      ],
+      "investment_verdict": {
+        "score": 10,
+        "verdict": "🔴 회피 (AVOID)",
+        "verdict_class": "avoid",
+        "reasons": [
+          "EGI 59.3% - 비효율 상태",
+          "추세: 급격한 하락",
+          "가속도 강한 양수 - 최적화 진행 중",
+          "리스크 2건 감지 (-10점)"
+        ],
+        "signal": "STRONG_SELL"
+      }
+    }
+  ],
+  "backtest": {
+    "total_return": 1171.29,
+    "cagr": 45.91,
+    "volatility": 22.97,
+    "sharpe_ratio": 1.63,
+    "sortino_ratio": 2.3694,
+    "mdd": -39.23,
+    "win_rate": 57.31,
+    "avg_gain": 1.0826,
+    "avg_loss": -1.0775,
+    "final_value": 1271288910.0,
+    "benchmark_total_return": 174.06,
+    "benchmark_cagr": 16.16,
+    "alpha": 29.75,
+    "n_years": 6.73,
+    "trading_days": 1696
+  },
+  "portfolio": {
+    "AAPL": {
+      "weight": 0.09523809523809523,
+      "score": 42,
+      "egi": 588.64,
+      "signal": "BUY",
+      "company_name": "Apple Inc."
+    },
+    "GOOGL": {
+      "weight": 0.15873015873015872,
+      "score": 70,
+      "egi": 387.67,
+      "signal": "STRONG_BUY",
+      "company_name": "Alphabet Inc."
+    },
+    "TSLA": {
+      "weight": 0.09070294784580499,
+      "score": 40,
+      "egi": 176.51,
+      "signal": "STRONG_BUY",
+      "company_name": "Tesla, Inc."
+    },
+    "NVDA": {
+      "weight": 0.08390022675736962,
+      "score": 37,
+      "egi": 3119.06,
+      "signal": "BUY",
+      "company_name": "NVIDIA Corporation"
+    },
+    "META": {
+      "weight": 0.11791383219954649,
+      "score": 52,
+      "egi": 555.75,
+      "signal": "BUY",
+      "company_name": "Meta Platforms, Inc."
+    },
+    "JNJ": {
+      "weight": 0.10204081632653061,
+      "score": 45,
+      "egi": 163.35,
+      "signal": "STRONG_BUY",
+      "company_name": "Johnson & Johnson"
+    },
+    "005930.KS": {
+      "weight": 0.18140589569160998,
+      "score": 80,
+      "egi": 222.32,
+      "signal": "STRONG_BUY",
+      "company_name": "Samsung Electronics Co., Ltd."
+    },
+    "000660.KS": {
+      "weight": 0.17006802721088435,
+      "score": 75,
+      "egi": 2020.57,
+      "signal": "STRONG_BUY",
+      "company_name": "SK hynix Inc."
+    }
+  },
+  "trades": [
+    {
+      "ticker": "AAPL",
+      "company_name": "Apple Inc.",
+      "year": 2021,
+      "egi": 0.0,
+      "action": "STRONG_SELL",
+      "weight": 0.0952
+    },
+    {
+      "ticker": "000660.KS",
+      "company_name": "SK hynix Inc.",
+      "year": 2022,
+      "egi": 588.71,
+      "action": "STRONG_BUY",
+      "weight": 0.1701
+    },
+    {
+      "ticker": "005930.KS",
+      "company_name": "Samsung Electronics Co., Ltd.",
+      "year": 2022,
+      "egi": 198.77,
+      "action": "STRONG_BUY",
+      "weight": 0.1814
+    },
+    {
+      "ticker": "AAPL",
+      "company_name": "Apple Inc.",
+      "year": 2022,
+      "egi": 597.11,
+      "action": "STRONG_BUY",
+      "weight": 0.0952
+    },
+    {
+      "ticker": "GOOGL",
+      "company_name": "Alphabet Inc.",
+      "year": 2022,
+      "egi": 319.41,
+      "action": "STRONG_BUY",
+      "weight": 0.1587
+    },
+    {
+      "ticker": "JNJ",
+      "company_name": "Johnson & Johnson",
+      "year": 2022,
+      "egi": 225.19,
+      "action": "STRONG_BUY",
+      "weight": 0.102
+    },
+    {
+      "ticker": "META",
+      "company_name": "Meta Platforms, Inc.",
+      "year": 2022,
+      "egi": 286.27,
+      "action": "STRONG_BUY",
+      "weight": 0.1179
+    },
+    {
+      "ticker": "TSLA",
+      "company_name": "Tesla, Inc.",
+      "year": 2022,
+      "egi": 793.3,
+      "action": "STRONG_BUY",
+      "weight": 0.0907
+    },
+    {
+      "ticker": "000660.KS",
+      "company_name": "SK hynix Inc.",
+      "year": 2023,
+      "egi": -24.73,
+      "action": "STRONG_SELL",
+      "weight": 0.1701
+    },
+    {
+      "ticker": "005930.KS",
+      "company_name": "Samsung Electronics Co., Ltd.",
+      "year": 2023,
+      "egi": 158.93,
+      "action": "STRONG_BUY",
+      "weight": 0.1814
+    },
+    {
+      "ticker": "AAPL",
+      "company_name": "Apple Inc.",
+      "year": 2023,
+      "egi": 511.5,
+      "action": "STRONG_BUY",
+      "weight": 0.0952
+    },
+    {
+      "ticker": "GOOGL",
+      "company_name": "Alphabet Inc.",
+      "year": 2023,
+      "egi": 278.72,
+      "action": "STRONG_BUY",
+      "weight": 0.1587
+    },
+    {
+      "ticker": "JNJ",
+      "company_name": "Johnson & Johnson",
+      "year": 2023,
+      "egi": 159.29,
+      "action": "STRONG_BUY",
+      "weight": 0.102
+    },
+    {
+      "ticker": "META",
+      "company_name": "Meta Platforms, Inc.",
+      "year": 2023,
+      "egi": 462.52,
+      "action": "STRONG_BUY",
+      "weight": 0.1179
+    },
+    {
+      "ticker": "NVDA",
+      "company_name": "NVIDIA Corporation",
+      "year": 2023,
+      "egi": 592.91,
+      "action": "STRONG_BUY",
+      "weight": 0.0839
+    },
+    {
+      "ticker": "TSLA",
+      "company_name": "Tesla, Inc.",
+      "year": 2023,
+      "egi": 262.41,
+      "action": "STRONG_BUY",
+      "weight": 0.0907
+    },
+    {
+      "ticker": "000660.KS",
+      "company_name": "SK hynix Inc.",
+      "year": 2024,
+      "egi": 967.41,
+      "action": "STRONG_BUY",
+      "weight": 0.1701
+    },
+    {
+      "ticker": "005930.KS",
+      "company_name": "Samsung Electronics Co., Ltd.",
+      "year": 2024,
+      "egi": 188.22,
+      "action": "STRONG_BUY",
+      "weight": 0.1814
+    },
+    {
+      "ticker": "AAPL",
+      "company_name": "Apple Inc.",
+      "year": 2024,
+      "egi": 592.35,
+      "action": "STRONG_BUY",
+      "weight": 0.0952
+    },
+    {
+      "ticker": "GOOGL",
+      "company_name": "Alphabet Inc.",
+      "year": 2024,
+      "egi": 382.63,
+      "action": "STRONG_BUY",
+      "weight": 0.1587
+    },
+    {
+      "ticker": "JNJ",
+      "company_name": "Johnson & Johnson",
+      "year": 2024,
+      "egi": 172.4,
+      "action": "STRONG_BUY",
+      "weight": 0.102
+    },
+    {
+      "ticker": "META",
+      "company_name": "Meta Platforms, Inc.",
+      "year": 2024,
+      "egi": 528.76,
+      "action": "STRONG_BUY",
+      "weight": 0.1179
+    },
+    {
+      "ticker": "NVDA",
+      "company_name": "NVIDIA Corporation",
+      "year": 2024,
+      "egi": 1564.34,
+      "action": "STRONG_BUY",
+      "weight": 0.0839
+    },
+    {
+      "ticker": "TSLA",
+      "company_name": "Tesla, Inc.",
+      "year": 2024,
+      "egi": 173.02,
+      "action": "STRONG_BUY",
+      "weight": 0.0907
+    },
+    {
+      "ticker": "000660.KS",
+      "company_name": "SK hynix Inc.",
+      "year": 2025,
+      "egi": 2020.57,
+      "action": "STRONG_BUY",
+      "weight": 0.1701
+    },
+    {
+      "ticker": "005930.KS",
+      "company_name": "Samsung Electronics Co., Ltd.",
+      "year": 2025,
+      "egi": 222.32,
+      "action": "STRONG_BUY",
+      "weight": 0.1814
+    },
+    {
+      "ticker": "AAPL",
+      "company_name": "Apple Inc.",
+      "year": 2025,
+      "egi": 588.64,
+      "action": "STRONG_BUY",
+      "weight": 0.0952
+    },
+    {
+      "ticker": "GOOGL",
+      "company_name": "Alphabet Inc.",
+      "year": 2025,
+      "egi": 387.67,
+      "action": "STRONG_BUY",
+      "weight": 0.1587
+    },
+    {
+      "ticker": "JNJ",
+      "company_name": "Johnson & Johnson",
+      "year": 2025,
+      "egi": 163.35,
+      "action": "STRONG_BUY",
+      "weight": 0.102
+    },
+    {
+      "ticker": "META",
+      "company_name": "Meta Platforms, Inc.",
+      "year": 2025,
+      "egi": 555.75,
+      "action": "STRONG_BUY",
+      "weight": 0.1179
+    },
+    {
+      "ticker": "NVDA",
+      "company_name": "NVIDIA Corporation",
+      "year": 2025,
+      "egi": 2559.55,
+      "action": "STRONG_BUY",
+      "weight": 0.0839
+    },
+    {
+      "ticker": "TSLA",
+      "company_name": "Tesla, Inc.",
+      "year": 2025,
+      "egi": 176.51,
+      "action": "STRONG_BUY",
+      "weight": 0.0907
+    },
+    {
+      "ticker": "NVDA",
+      "company_name": "NVIDIA Corporation",
+      "year": 2026,
+      "egi": 3119.06,
+      "action": "STRONG_BUY",
+      "weight": 0.0839
+    }
+  ],
+  "equity_curve": [
+    {
+      "date": "2019-01-06",
+      "value": 98950089.99384582
+    },
+    {
+      "date": "2019-01-13",
+      "value": 104681073.28807366
+    },
+    {
+      "date": "2019-01-20",
+      "value": 106202219.29114215
+    },
+    {
+      "date": "2019-01-27",
+      "value": 109716980.33370152
+    },
+    {
+      "date": "2019-02-03",
+      "value": 113284564.50745808
+    },
+    {
+      "date": "2019-02-10",
+      "value": 112019515.9104739
+    },
+    {
+      "date": "2019-02-17",
+      "value": 113579909.57077578
+    },
+    {
+      "date": "2019-02-24",
+      "value": 114578253.95086916
+    },
+    {
+      "date": "2019-03-03",
+      "value": 112722597.49449818
+    },
+    {
+      "date": "2019-03-10",
+      "value": 111019416.97395784
+    },
+    {
+      "date": "2019-03-17",
+      "value": 113566034.3497042
+    },
+    {
+      "date": "2019-03-24",
+      "value": 117280196.76513863
+    },
+    {
+      "date": "2019-03-31",
+      "value": 116709241.19761625
+    },
+    {
+      "date": "2019-04-07",
+      "value": 120896325.19986008
+    },
+    {
+      "date": "2019-04-14",
+      "value": 120872633.57046829
+    },
+    {
+      "date": "2019-04-21",
+      "value": 121268919.15268376
+    },
+    {
+      "date": "2019-04-28",
+      "value": 120579487.06001796
+    },
+    {
+      "date": "2019-05-05",
+      "value": 122005507.9994542
+    },
+    {
+      "date": "2019-05-12",
+      "value": 115935148.4291671
+    },
+    {
+      "date": "2019-05-19",
+      "value": 111723988.51242378
+    },
+    {
+      "date": "2019-05-26",
+      "value": 108480122.42995586
+    },
+    {
+      "date": "2019-06-02",
+      "value": 105310270.78108317
+    },
+    {
+      "date": "2019-06-09",
+      "value": 108395045.78468518
+    },
+    {
+      "date": "2019-06-16",
+      "value": 109252694.35530995
+    },
+    {
+      "date": "2019-06-23",
+      "value": 113486514.38240747
+    },
+    {
+      "date": "2019-06-30",
+      "value": 115295459.41911918
+    },
+    {
+      "date": "2019-07-07",
+      "value": 116140414.20687138
+    },
+    {
+      "date": "2019-07-14",
+      "value": 119443476.75987212
+    },
+    {
+      "date": "2019-07-21",
+      "value": 119797385.54906298
+    },
+    {
+      "date": "2019-07-28",
+      "value": 122259255.2951429
+    },
+    {
+      "date": "2019-08-04",
+      "value": 118057391.73003271
+    },
+    {
+      "date": "2019-08-11",
+      "value": 115880966.21746549
+    },
+    {
+      "date": "2019-08-18",
+      "value": 116586484.64712162
+    },
+    {
+      "date": "2019-08-25",
+      "value": 114538801.7008629
+    },
+    {
+      "date": "2019-09-01",
+      "value": 118065403.2826308
+    },
+    {
+      "date": "2019-09-08",
+      "value": 121719324.98165378
+    },
+    {
+      "date": "2019-09-15",
+      "value": 124725175.92418802
+    },
+    {
+      "date": "2019-09-22",
+      "value": 124645660.93031968
+    },
+    {
+      "date": "2019-09-29",
+      "value": 123014244.32059434
+    },
+    {
+      "date": "2019-10-06",
+      "value": 123641369.27639484
+    },
+    {
+      "date": "2019-10-13",
+      "value": 125781900.89104435
+    },
+    {
+      "date": "2019-10-20",
+      "value": 126390330.98116659
+    },
+    {
+      "date": "2019-10-27",
+      "value": 133347379.1908391
+    },
+    {
+      "date": "2019-11-03",
+      "value": 134288256.57848907
+    },
+    {
+      "date": "2019-11-10",
+      "value": 136540977.61711258
+    },
+    {
+      "date": "2019-11-17",
+      "value": 139741632.7920865
+    },
+    {
+      "date": "2019-11-24",
+      "value": 137262846.53387606
+    },
+    {
+      "date": "2019-12-01",
+      "value": 137346661.64200193
+    },
+    {
+      "date": "2019-12-08",
+      "value": 138315261.61999997
+    },
+    {
+      "date": "2019-12-15",
+      "value": 143893787.30187875
+    },
+    {
+      "date": "2019-12-22",
+      "value": 150856692.0339304
+    },
+    {
+      "date": "2019-12-29",
+      "value": 153248723.34519106
+    },
+    {
+      "date": "2020-01-05",
+      "value": 153132003.8751124
+    },
+    {
+      "date": "2020-01-12",
+      "value": 160658287.66936088
+    },
+    {
+      "date": "2020-01-19",
+      "value": 165029617.48345038
+    },
+    {
+      "date": "2020-01-26",
+      "value": 166506253.30190313
+    },
+    {
+      "date": "2020-02-02",
+      "value": 160932377.7920571
+    },
+    {
+      "date": "2020-02-09",
+      "value": 170976697.9062796
+    },
+    {
+      "date": "2020-02-16",
+      "value": 177392993.73564923
+    },
+    {
+      "date": "2020-02-23",
+      "value": 176143583.5050966
+    },
+    {
+      "date": "2020-03-01",
+      "value": 155369123.13280532
+    },
+    {
+      "date": "2020-03-08",
+      "value": 158413825.38596645
+    },
+    {
+      "date": "2020-03-15",
+      "value": 143997662.7977887
+    },
+    {
+      "date": "2020-03-22",
+      "value": 126859460.42293039
+    },
+    {
+      "date": "2020-03-29",
+      "value": 138585035.6430706
+    },
+    {
+      "date": "2020-04-05",
+      "value": 136184168.8240489
+    },
+    {
+      "date": "2020-04-12",
+      "value": 148758926.31872386
+    },
+    {
+      "date": "2020-04-19",
+      "value": 158983997.97702104
+    },
+    {
+      "date": "2020-04-26",
+      "value": 157724301.23275977
+    },
+    {
+      "date": "2020-05-03",
+      "value": 162312628.41114458
+    },
+    {
+      "date": "2020-05-10",
+      "value": 166694705.53072017
+    },
+    {
+      "date": "2020-05-17",
+      "value": 165655011.93157852
+    },
+    {
+      "date": "2020-05-24",
+      "value": 170194317.83581015
+    },
+    {
+      "date": "2020-05-31",
+      "value": 171658172.9348241
+    },
+    {
+      "date": "2020-06-07",
+      "value": 179965872.5666361
+    },
+    {
+      "date": "2020-06-14",
+      "value": 176334315.9323354
+    },
+    {
+      "date": "2020-06-21",
+      "value": 180457294.02095038
+    },
+    {
+      "date": "2020-06-28",
+      "value": 175844883.59729093
+    },
+    {
+      "date": "2020-07-05",
+      "value": 185130057.3367399
+    },
+    {
+      "date": "2020-07-12",
+      "value": 193796824.71963465
+    },
+    {
+      "date": "2020-07-19",
+      "value": 194368761.71131974
+    },
+    {
+      "date": "2020-07-26",
+      "value": 191574553.89772812
+    },
+    {
+      "date": "2020-08-02",
+      "value": 198756365.86207902
+    },
+    {
+      "date": "2020-08-09",
+      "value": 201704555.00768787
+    },
+    {
+      "date": "2020-08-16",
+      "value": 205018843.22904348
+    },
+    {
+      "date": "2020-08-23",
+      "value": 211359791.99833104
+    },
+    {
+      "date": "2020-08-30",
+      "value": 219013265.53298047
+    },
+    {
+      "date": "2020-09-06",
+      "value": 214785928.83309484
+    },
+    {
+      "date": "2020-09-13",
+      "value": 210249448.06837174
+    },
+    {
+      "date": "2020-09-20",
+      "value": 212799432.66245115
+    },
+    {
+      "date": "2020-09-27",
+      "value": 211678451.84380218
+    },
+    {
+      "date": "2020-10-04",
+      "value": 215492034.19728276
+    },
+    {
+      "date": "2020-10-11",
+      "value": 218231061.80451944
+    },
+    {
+      "date": "2020-10-18",
+      "value": 222636906.04031688
+    },
+    {
+      "date": "2020-10-25",
+      "value": 223481142.98317435
+    },
+    {
+      "date": "2020-11-01",
+      "value": 211639422.8031095
+    },
+    {
+      "date": "2020-11-08",
+      "value": 230449506.45664608
+    },
+    {
+      "date": "2020-11-15",
+      "value": 231446307.3216292
+    },
+    {
+      "date": "2020-11-22",
+      "value": 236913505.6732044
+    },
+    {
+      "date": "2020-11-29",
+      "value": 246009845.7474356
+    },
+    {
+      "date": "2020-12-06",
+      "value": 259161145.23129094
+    },
+    {
+      "date": "2020-12-13",
+      "value": 259119689.0156925
+    },
+    {
+      "date": "2020-12-20",
+      "value": 263985866.41427618
+    },
+    {
+      "date": "2020-12-27",
+      "value": 265207849.49029344
+    },
+    {
+      "date": "2021-01-03",
+      "value": 272162658.05797344
+    },
+    {
+      "date": "2021-01-10",
+      "value": 292276620.85624605
+    },
+    {
+      "date": "2021-01-17",
+      "value": 280907735.9408928
+    },
+    {
+      "date": "2021-01-24",
+      "value": 293071989.0926804
+    },
+    {
+      "date": "2021-01-31",
+      "value": 279918788.08708364
+    },
+    {
+      "date": "2021-02-07",
+      "value": 294615733.0574289
+    },
+    {
+      "date": "2021-02-14",
+      "value": 294018516.06482154
+    },
+    {
+      "date": "2021-02-21",
+      "value": 293913939.0018729
+    },
+    {
+      "date": "2021-02-28",
+      "value": 287226981.7540273
+    },
+    {
+      "date": "2021-03-07",
+      "value": 283326601.18017554
+    },
+    {
+      "date": "2021-03-14",
+      "value": 288982701.47750187
+    },
+    {
+      "date": "2021-03-21",
+      "value": 288423083.7302182
+    },
+    {
+      "date": "2021-03-28",
+      "value": 285976110.3973953
+    },
+    {
+      "date": "2021-04-04",
+      "value": 297064301.2217375
+    },
+    {
+      "date": "2021-04-11",
+      "value": 305735887.67897165
+    },
+    {
+      "date": "2021-04-18",
+      "value": 310247497.0854259
+    },
+    {
+      "date": "2021-04-25",
+      "value": 306676632.73889303
+    },
+    {
+      "date": "2021-05-02",
+      "value": 305785081.4674382
+    },
+    {
+      "date": "2021-05-09",
+      "value": 305112154.97212875
+    },
+    {
+      "date": "2021-05-16",
+      "value": 292935892.24178374
+    },
+    {
+      "date": "2021-05-23",
+      "value": 295572283.6226633
+    },
+    {
+      "date": "2021-05-30",
+      "value": 303120826.1933225
+    },
+    {
+      "date": "2021-06-06",
+      "value": 307625781.9158454
+    },
+    {
+      "date": "2021-06-13",
+      "value": 308559428.20084745
+    },
+    {
+      "date": "2021-06-20",
+      "value": 308033344.0294121
+    },
+    {
+      "date": "2021-06-27",
+      "value": 316553298.1862825
+    },
+    {
+      "date": "2021-07-04",
+      "value": 320505097.99622595
+    },
+    {
+      "date": "2021-07-11",
+      "value": 318168584.31219697
+    },
+    {
+      "date": "2021-07-18",
+      "value": 315818178.76426214
+    },
+    {
+      "date": "2021-07-25",
+      "value": 322765496.5832818
+    },
+    {
+      "date": "2021-08-01",
+      "value": 320072916.7322551
+    },
+    {
+      "date": "2021-08-08",
+      "value": 328127366.14737654
+    },
+    {
+      "date": "2021-08-15",
+      "value": 317204299.2008562
+    },
+    {
+      "date": "2021-08-22",
+      "value": 315808475.9820628
+    },
+    {
+      "date": "2021-08-29",
+      "value": 324093220.19730794
+    },
+    {
+      "date": "2021-09-05",
+      "value": 330837203.96742165
+    },
+    {
+      "date": "2021-09-12",
+      "value": 325075974.054021
+    },
+    {
+      "date": "2021-09-19",
+      "value": 325375133.7873729
+    },
+    {
+      "date": "2021-09-26",
+      "value": 324134918.0128899
+    },
+    {
+      "date": "2021-10-03",
+      "value": 312846621.76623434
+    },
+    {
+      "date": "2021-10-10",
+      "value": 308679268.620855
+    },
+    {
+      "date": "2021-10-17",
+      "value": 313788561.7582648
+    },
+    {
+      "date": "2021-10-24",
+      "value": 317345859.94780195
+    },
+    {
+      "date": "2021-10-31",
+      "value": 332714944.978458
+    },
+    {
+      "date": "2021-11-07",
+      "value": 345717985.7610198
+    },
+    {
+      "date": "2021-11-14",
+      "value": 341586447.1877659
+    },
+    {
+      "date": "2021-11-21",
+      "value": 352907070.7620737
+    },
+    {
+      "date": "2021-11-28",
+      "value": 347897203.93070966
+    },
+    {
+      "date": "2021-12-05",
+      "value": 347253824.6716096
+    },
+    {
+      "date": "2021-12-12",
+      "value": 359636502.02478886
+    },
+    {
+      "date": "2021-12-19",
+      "value": 353389950.80538094
+    },
+    {
+      "date": "2021-12-26",
+      "value": 367434641.31030697
+    },
+    {
+      "date": "2022-01-02",
+      "value": 371171440.8124306
+    },
+    {
+      "date": "2022-01-09",
+      "value": 359423014.8092712
+    },
+    {
+      "date": "2022-01-16",
+      "value": 359754765.4310882
+    },
+    {
+      "date": "2022-01-23",
+      "value": 336252538.17348516
+    },
+    {
+      "date": "2022-01-30",
+      "value": 335428092.96414256
+    },
+    {
+      "date": "2022-02-06",
+      "value": 338278019.61926585
+    },
+    {
+      "date": "2022-02-13",
+      "value": 332204160.71873176
+    },
+    {
+      "date": "2022-02-20",
+      "value": 326552399.6904291
+    },
+    {
+      "date": "2022-02-27",
+      "value": 322774356.49581426
+    },
+    {
+      "date": "2022-03-06",
+      "value": 323458223.3913537
+    },
+    {
+      "date": "2022-03-13",
+      "value": 309288681.25223744
+    },
+    {
+      "date": "2022-03-20",
+      "value": 332147321.47471017
+    },
+    {
+      "date": "2022-03-27",
+      "value": 339009530.3269705
+    },
+    {
+      "date": "2022-04-03",
+      "value": 339292366.18423563
+    },
+    {
+      "date": "2022-04-10",
+      "value": 327505231.5846438
+    },
+    {
+      "date": "2022-04-17",
+      "value": 316916820.845306
+    },
+    {
+      "date": "2022-04-24",
+      "value": 307301788.0599034
+    },
+    {
+      "date": "2022-05-01",
+      "value": 304041085.05345005
+    },
+    {
+      "date": "2022-05-08",
+      "value": 301810483.4347084
+    },
+    {
+      "date": "2022-05-15",
+      "value": 297346911.04914576
+    },
+    {
+      "date": "2022-05-22",
+      "value": 287792673.4665071
+    },
+    {
+      "date": "2022-05-29",
+      "value": 295467796.3727765
+    },
+    {
+      "date": "2022-06-05",
+      "value": 292757605.9124079
+    },
+    {
+      "date": "2022-06-12",
+      "value": 279910828.2385989
+    },
+    {
+      "date": "2022-06-19",
+      "value": 265076861.37861776
+    },
+    {
+      "date": "2022-06-26",
+      "value": 275938783.45662266
+    },
+    {
+      "date": "2022-07-03",
+      "value": 260698756.03208876
+    },
+    {
+      "date": "2022-07-10",
+      "value": 278291933.27937055
+    },
+    {
+      "date": "2022-07-17",
+      "value": 276700158.6341052
+    },
+    {
+      "date": "2022-07-24",
+      "value": 283266206.0212199
+    },
+    {
+      "date": "2022-07-31",
+      "value": 289263049.42664945
+    },
+    {
+      "date": "2022-08-07",
+      "value": 292126434.86397785
+    },
+    {
+      "date": "2022-08-14",
+      "value": 293681544.4997104
+    },
+    {
+      "date": "2022-08-21",
+      "value": 290991217.90159744
+    },
+    {
+      "date": "2022-08-28",
+      "value": 280792748.22112215
+    },
+    {
+      "date": "2022-09-04",
+      "value": 268693997.6762192
+    },
+    {
+      "date": "2022-09-11",
+      "value": 269472103.87227905
+    },
+    {
+      "date": "2022-09-18",
+      "value": 264812278.35535285
+    },
+    {
+      "date": "2022-09-25",
+      "value": 253099484.1887849
+    },
+    {
+      "date": "2022-10-02",
+      "value": 246104198.43696514
+    },
+    {
+      "date": "2022-10-09",
+      "value": 249456492.60476518
+    },
+    {
+      "date": "2022-10-16",
+      "value": 246281288.67963946
+    },
+    {
+      "date": "2022-10-23",
+      "value": 251759209.89522642
+    },
+    {
+      "date": "2022-10-30",
+      "value": 246872470.40446785
+    },
+    {
+      "date": "2022-11-06",
+      "value": 237849565.50858754
+    },
+    {
+      "date": "2022-11-13",
+      "value": 259242202.2380847
+    },
+    {
+      "date": "2022-11-20",
+      "value": 254380966.85334134
+    },
+    {
+      "date": "2022-11-27",
+      "value": 253424355.94898736
+    },
+    {
+      "date": "2022-12-04",
+      "value": 258247519.86603937
+    },
+    {
+      "date": "2022-12-11",
+      "value": 249956963.39180782
+    },
+    {
+      "date": "2022-12-18",
+      "value": 241918423.72247162
+    },
+    {
+      "date": "2022-12-25",
+      "value": 233904572.48962545
+    },
+    {
+      "date": "2023-01-01",
+      "value": 229880995.33141705
+    },
+    {
+      "date": "2023-01-08",
+      "value": 237799115.20170942
+    },
+    {
+      "date": "2023-01-15",
+      "value": 248408874.61649635
+    },
+    {
+      "date": "2023-01-22",
+      "value": 256232569.51349878
+    },
+    {
+      "date": "2023-01-29",
+      "value": 275177879.9954092
+    },
+    {
+      "date": "2023-02-05",
+      "value": 288077068.6986496
+    },
+    {
+      "date": "2023-02-12",
+      "value": 281838325.02662385
+    },
+    {
+      "date": "2023-02-19",
+      "value": 282519136.2510509
+    },
+    {
+      "date": "2023-02-26",
+      "value": 276902003.6177558
+    },
+    {
+      "date": "2023-03-05",
+      "value": 280553714.2994072
+    },
+    {
+      "date": "2023-03-12",
+      "value": 270111600.56933475
+    },
+    {
+      "date": "2023-03-19",
+      "value": 285143357.7714635
+    },
+    {
+      "date": "2023-03-26",
+      "value": 295563462.4490903
+    },
+    {
+      "date": "2023-04-02",
+      "value": 302554153.250796
+    },
+    {
+      "date": "2023-04-09",
+      "value": 299359119.904024
+    },
+    {
+      "date": "2023-04-16",
+      "value": 306379882.9608614
+    },
+    {
+      "date": "2023-04-23",
+      "value": 300581174.0970144
+    },
+    {
+      "date": "2023-04-30",
+      "value": 307639713.6354242
+    },
+    {
+      "date": "2023-05-07",
+      "value": 302944319.2191778
+    },
+    {
+      "date": "2023-05-14",
+      "value": 309859706.0737139
+    },
+    {
+      "date": "2023-05-21",
+      "value": 328534566.492713
+    },
+    {
+      "date": "2023-05-28",
+      "value": 348667620.7441761
+    },
+    {
+      "date": "2023-06-04",
+      "value": 358033701.2281698
+    },
+    {
+      "date": "2023-06-11",
+      "value": 363096162.9709505
+    },
+    {
+      "date": "2023-06-18",
+      "value": 374986424.71154165
+    },
+    {
+      "date": "2023-06-25",
+      "value": 372433694.6812737
+    },
+    {
+      "date": "2023-07-02",
+      "value": 375162797.4866817
+    },
+    {
+      "date": "2023-07-09",
+      "value": 371316773.8644042
+    },
+    {
+      "date": "2023-07-16",
+      "value": 387180463.4940683
+    },
+    {
+      "date": "2023-07-23",
+      "value": 377193568.3057527
+    },
+    {
+      "date": "2023-07-30",
+      "value": 400086050.0720603
+    },
+    {
+      "date": "2023-08-06",
+      "value": 382229229.0271019
+    },
+    {
+      "date": "2023-08-13",
+      "value": 374217142.8161153
+    },
+    {
+      "date": "2023-08-20",
+      "value": 367400606.6199624
+    },
+    {
+      "date": "2023-08-27",
+      "value": 374746493.11003876
+    },
+    {
+      "date": "2023-09-03",
+      "value": 388583272.5333552
+    },
+    {
+      "date": "2023-09-10",
+      "value": 381299201.78064114
+    },
+    {
+      "date": "2023-09-17",
+      "value": 390685050.71668756
+    },
+    {
+      "date": "2023-09-24",
+      "value": 375514159.54456854
+    },
+    {
+      "date": "2023-10-01",
+      "value": 372487600.19369185
+    },
+    {
+      "date": "2023-10-08",
+      "value": 385858546.9505538
+    },
+    {
+      "date": "2023-10-15",
+      "value": 388783367.71157205
+    },
+    {
+      "date": "2023-10-22",
+      "value": 377977833.3241686
+    },
+    {
+      "date": "2023-10-29",
+      "value": 361138056.2311625
+    },
+    {
+      "date": "2023-11-05",
+      "value": 381321681.3093724
+    },
+    {
+      "date": "2023-11-12",
+      "value": 390865953.212677
+    },
+    {
+      "date": "2023-11-19",
+      "value": 400070525.2648261
+    },
+    {
+      "date": "2023-11-26",
+      "value": 399672700.3819596
+    },
+    {
+      "date": "2023-12-03",
+      "value": 399937770.72927153
+    },
+    {
+      "date": "2023-12-10",
+      "value": 401871630.1567209
+    },
+    {
+      "date": "2023-12-17",
+      "value": 411348130.91595006
+    },
+    {
+      "date": "2023-12-24",
+      "value": 420464231.89835125
+    },
+    {
+      "date": "2023-12-31",
+      "value": 425067014.9926374
+    },
+    {
+      "date": "2024-01-07",
+      "value": 414136720.2289041
+    },
+    {
+      "date": "2024-01-14",
+      "value": 417495064.3798445
+    },
+    {
+      "date": "2024-01-21",
+      "value": 428772773.8053343
+    },
+    {
+      "date": "2024-01-28",
+      "value": 423894790.34626245
+    },
+    {
+      "date": "2024-02-04",
+      "value": 432691868.2607401
+    },
+    {
+      "date": "2024-02-11",
+      "value": 439873722.74542207
+    },
+    {
+      "date": "2024-02-18",
+      "value": 441350049.0839219
+    },
+    {
+      "date": "2024-02-25",
+      "value": 455172232.34298617
+    },
+    {
+      "date": "2024-03-03",
+      "value": 453003858.17999834
+    },
+    {
+      "date": "2024-03-10",
+      "value": 456185172.103721
+    },
+    {
+      "date": "2024-03-17",
+      "value": 448487598.14607674
+    },
+    {
+      "date": "2024-03-24",
+      "value": 471604249.0780154
+    },
+    {
+      "date": "2024-03-31",
+      "value": 475890132.10673195
+    },
+    {
+      "date": "2024-04-07",
+      "value": 481672616.95778835
+    },
+    {
+      "date": "2024-04-14",
+      "value": 485961016.6254182
+    },
+    {
+      "date": "2024-04-21",
+      "value": 453432628.1775975
+    },
+    {
+      "date": "2024-04-28",
+      "value": 470983156.2179288
+    },
+    {
+      "date": "2024-05-05",
+      "value": 477903464.4301584
+    },
+    {
+      "date": "2024-05-12",
+      "value": 484099900.2204409
+    },
+    {
+      "date": "2024-05-19",
+      "value": 496301459.3353548
+    },
+    {
+      "date": "2024-05-26",
+      "value": 503415208.1712928
+    },
+    {
+      "date": "2024-06-02",
+      "value": 495497372.32851607
+    },
+    {
+      "date": "2024-06-09",
+      "value": 517873677.93346757
+    },
+    {
+      "date": "2024-06-16",
+      "value": 536624013.4336795
+    },
+    {
+      "date": "2024-06-23",
+      "value": 542411721.4186286
+    },
+    {
+      "date": "2024-06-30",
+      "value": 551253135.0471039
+    },
+    {
+      "date": "2024-07-07",
+      "value": 584459904.691196
+    },
+    {
+      "date": "2024-07-14",
+      "value": 575238540.803866
+    },
+    {
+      "date": "2024-07-21",
+      "value": 553025270.8848413
+    },
+    {
+      "date": "2024-07-28",
+      "value": 529521622.15093803
+    },
+    {
+      "date": "2024-08-04",
+      "value": 519415388.5446342
+    },
+    {
+      "date": "2024-08-11",
+      "value": 510889331.2850504
+    },
+    {
+      "date": "2024-08-18",
+      "value": 545866060.4467113
+    },
+    {
+      "date": "2024-08-25",
+      "value": 542376008.2750702
+    },
+    {
+      "date": "2024-09-01",
+      "value": 526937935.1066965
+    },
+    {
+      "date": "2024-09-08",
+      "value": 493319468.7484886
+    },
+    {
+      "date": "2024-09-15",
+      "value": 508332831.3515624
+    },
+    {
+      "date": "2024-09-22",
+      "value": 512172510.6376837
+    },
+    {
+      "date": "2024-09-29",
+      "value": 535197350.76367396
+    },
+    {
+      "date": "2024-10-06",
+      "value": 528494216.2953314
+    },
+    {
+      "date": "2024-10-13",
+      "value": 527857131.20136225
+    },
+    {
+      "date": "2024-10-20",
+      "value": 531862463.0952153
+    },
+    {
+      "date": "2024-10-27",
+      "value": 543365914.9544128
+    },
+    {
+      "date": "2024-11-03",
+      "value": 533301559.10866547
+    },
+    {
+      "date": "2024-11-10",
+      "value": 562940754.0823172
+    },
+    {
+      "date": "2024-11-17",
+      "value": 536928835.5693835
+    },
+    {
+      "date": "2024-11-24",
+      "value": 544098125.2860279
+    },
+    {
+      "date": "2024-12-01",
+      "value": 535851348.03667194
+    },
+    {
+      "date": "2024-12-08",
+      "value": 554831610.0495625
+    },
+    {
+      "date": "2024-12-15",
+      "value": 574106554.3030536
+    },
+    {
+      "date": "2024-12-22",
+      "value": 560833027.5745369
+    },
+    {
+      "date": "2024-12-29",
+      "value": 571347667.7428747
+    },
+    {
+      "date": "2025-01-05",
+      "value": 574191483.5706466
+    },
+    {
+      "date": "2025-01-12",
+      "value": 581622561.0897819
+    },
+    {
+      "date": "2025-01-19",
+      "value": 591114016.2269893
+    },
+    {
+      "date": "2025-01-26",
+      "value": 597562623.8113731
+    },
+    {
+      "date": "2025-02-02",
+      "value": 588655212.46041
+    },
+    {
+      "date": "2025-02-09",
+      "value": 583644580.2113987
+    },
+    {
+      "date": "2025-02-16",
+      "value": 601869098.1042467
+    },
+    {
+      "date": "2025-02-23",
+      "value": 596528364.0663158
+    },
+    {
+      "date": "2025-03-02",
+      "value": 564088168.3759195
+    },
+    {
+      "date": "2025-03-09",
+      "value": 551296003.5748942
+    },
+    {
+      "date": "2025-03-16",
+      "value": 547644498.9936423
+    },
+    {
+      "date": "2025-03-23",
+      "value": 562788608.9010239
+    },
+    {
+      "date": "2025-03-30",
+      "value": 546477745.7112432
+    },
+    {
+      "date": "2025-04-06",
+      "value": 497889037.7771035
+    },
+    {
+      "date": "2025-04-13",
+      "value": 521254797.0220332
+    },
+    {
+      "date": "2025-04-20",
+      "value": 506158179.3056817
+    },
+    {
+      "date": "2025-04-27",
+      "value": 537305735.4105592
+    },
+    {
+      "date": "2025-05-04",
+      "value": 544032938.3810841
+    },
+    {
+      "date": "2025-05-11",
+      "value": 541070421.4558747
+    },
+    {
+      "date": "2025-05-18",
+      "value": 582339042.1499515
+    },
+    {
+      "date": "2025-05-25",
+      "value": 568546239.3094187
+    },
+    {
+      "date": "2025-06-01",
+      "value": 584349929.0045505
+    },
+    {
+      "date": "2025-06-08",
+      "value": 592500816.0655069
+    },
+    {
+      "date": "2025-06-15",
+      "value": 607960863.4571291
+    },
+    {
+      "date": "2025-06-22",
+      "value": 613737515.9496107
+    },
+    {
+      "date": "2025-06-29",
+      "value": 646977634.7719775
+    },
+    {
+      "date": "2025-07-06",
+      "value": 654307698.2428334
+    },
+    {
+      "date": "2025-07-13",
+      "value": 660203489.5461719
+    },
+    {
+      "date": "2025-07-20",
+      "value": 668875564.9376763
+    },
+    {
+      "date": "2025-07-27",
+      "value": 671828490.6029398
+    },
+    {
+      "date": "2025-08-03",
+      "value": 670190735.6281283
+    },
+    {
+      "date": "2025-08-10",
+      "value": 702849626.8613932
+    },
+    {
+      "date": "2025-08-17",
+      "value": 716616666.552816
+    },
+    {
+      "date": "2025-08-24",
+      "value": 703579255.2083688
+    },
+    {
+      "date": "2025-08-31",
+      "value": 709634199.9086565
+    },
+    {
+      "date": "2025-09-07",
+      "value": 728019303.6560687
+    },
+    {
+      "date": "2025-09-14",
+      "value": 777092793.9508458
+    },
+    {
+      "date": "2025-09-21",
+      "value": 808760838.3374237
+    },
+    {
+      "date": "2025-09-28",
+      "value": 813120434.8743273
+    },
+    {
+      "date": "2025-10-05",
+      "value": 852967885.9896715
+    },
+    {
+      "date": "2025-10-12",
+      "value": 857176769.3092402
+    },
+    {
+      "date": "2025-10-19",
+      "value": 895831364.7611979
+    },
+    {
+      "date": "2025-10-26",
+      "value": 921271937.4899927
+    },
+    {
+      "date": "2025-11-02",
+      "value": 962311403.1822977
+    },
+    {
+      "date": "2025-11-09",
+      "value": 934842523.9155713
+    },
+    {
+      "date": "2025-11-16",
+      "value": 927518773.7101755
+    },
+    {
+      "date": "2025-11-23",
+      "value": 918968036.2416565
+    },
+    {
+      "date": "2025-11-30",
+      "value": 963580056.0605048
+    },
+    {
+      "date": "2025-12-07",
+      "value": 991796586.480057
+    },
+    {
+      "date": "2025-12-14",
+      "value": 992491396.659669
+    },
+    {
+      "date": "2025-12-21",
+      "value": 986777951.3519251
+    },
+    {
+      "date": "2025-12-28",
+      "value": 1028221151.0281417
+    },
+    {
+      "date": "2026-01-04",
+      "value": 1058654162.2901669
+    },
+    {
+      "date": "2026-01-11",
+      "value": 1093416026.049206
+    },
+    {
+      "date": "2026-01-18",
+      "value": 1109718591.6171618
+    },
+    {
+      "date": "2026-01-25",
+      "value": 1124941133.9746988
+    },
+    {
+      "date": "2026-02-01",
+      "value": 1195055229.5875604
+    },
+    {
+      "date": "2026-02-08",
+      "value": 1167094133.349058
+    },
+    {
+      "date": "2026-02-15",
+      "value": 1184283250.2270758
+    },
+    {
+      "date": "2026-02-22",
+      "value": 1225728993.3879623
+    },
+    {
+      "date": "2026-03-01",
+      "value": 1271288909.8887186
+    }
+  ],
+  "benchmark_curve": [
+    {
+      "date": "2019-01-06",
+      "value": 100872894.4217258
+    },
+    {
+      "date": "2019-01-13",
+      "value": 103435416.28834236
+    },
+    {
+      "date": "2019-01-20",
+      "value": 106401514.31517474
+    },
+    {
+      "date": "2019-01-27",
+      "value": 106164467.30368774
+    },
+    {
+      "date": "2019-02-03",
+      "value": 107828591.59876443
+    },
+    {
+      "date": "2019-02-10",
+      "value": 107882369.97989413
+    },
+    {
+      "date": "2019-02-17",
+      "value": 110580354.22921881
+    },
+    {
+      "date": "2019-02-24",
+      "value": 111260418.77105747
+    },
+    {
+      "date": "2019-03-03",
+      "value": 111699458.12128934
+    },
+    {
+      "date": "2019-03-10",
+      "value": 109284352.63094363
+    },
+    {
+      "date": "2019-03-17",
+      "value": 112448056.29912719
+    },
+    {
+      "date": "2019-03-24",
+      "value": 111580735.22020975
+    },
+    {
+      "date": "2019-03-31",
+      "value": 112922947.90344557
+    },
+    {
+      "date": "2019-04-07",
+      "value": 115247226.38655868
+    },
+    {
+      "date": "2019-04-14",
+      "value": 115831678.43309891
+    },
+    {
+      "date": "2019-04-21",
+      "value": 115736863.5191448
+    },
+    {
+      "date": "2019-04-28",
+      "value": 117125287.28734122
+    },
+    {
+      "date": "2019-05-05",
+      "value": 117354767.00265913
+    },
+    {
+      "date": "2019-05-12",
+      "value": 114795435.46141978
+    },
+    {
+      "date": "2019-05-19",
+      "value": 113924136.20238258
+    },
+    {
+      "date": "2019-05-26",
+      "value": 112590687.18733229
+    },
+    {
+      "date": "2019-06-02",
+      "value": 109642515.28754316
+    },
+    {
+      "date": "2019-06-09",
+      "value": 114474331.15752497
+    },
+    {
+      "date": "2019-06-16",
+      "value": 115017746.67124076
+    },
+    {
+      "date": "2019-06-23",
+      "value": 117546799.30120204
+    },
+    {
+      "date": "2019-06-30",
+      "value": 117200191.84749313
+    },
+    {
+      "date": "2019-07-07",
+      "value": 119138411.78015974
+    },
+    {
+      "date": "2019-07-14",
+      "value": 120069082.21633847
+    },
+    {
+      "date": "2019-07-21",
+      "value": 118588625.34229124
+    },
+    {
+      "date": "2019-07-28",
+      "value": 120550753.26208335
+    },
+    {
+      "date": "2019-08-04",
+      "value": 116813345.44230406
+    },
+    {
+      "date": "2019-08-11",
+      "value": 116279481.45151632
+    },
+    {
+      "date": "2019-08-18",
+      "value": 115085472.99929395
+    },
+    {
+      "date": "2019-08-25",
+      "value": 113429324.51766026
+    },
+    {
+      "date": "2019-09-01",
+      "value": 116590635.44181092
+    },
+    {
+      "date": "2019-09-08",
+      "value": 118672283.84402692
+    },
+    {
+      "date": "2019-09-15",
+      "value": 119814896.93255074
+    },
+    {
+      "date": "2019-09-22",
+      "value": 119204552.67212602
+    },
+    {
+      "date": "2019-09-29",
+      "value": 117998191.43566874
+    },
+    {
+      "date": "2019-10-06",
+      "value": 117608553.49577464
+    },
+    {
+      "date": "2019-10-13",
+      "value": 118336035.22119209
+    },
+    {
+      "date": "2019-10-20",
+      "value": 118970686.25941445
+    },
+    {
+      "date": "2019-10-27",
+      "value": 120418879.99542455
+    },
+    {
+      "date": "2019-11-03",
+      "value": 122186184.08196871
+    },
+    {
+      "date": "2019-11-10",
+      "value": 123228807.70440225
+    },
+    {
+      "date": "2019-11-17",
+      "value": 124319626.63855541
+    },
+    {
+      "date": "2019-11-24",
+      "value": 123914455.31565097
+    },
+    {
+      "date": "2019-12-01",
+      "value": 125137147.51646289
+    },
+    {
+      "date": "2019-12-08",
+      "value": 125333556.78579767
+    },
+    {
+      "date": "2019-12-15",
+      "value": 126245503.51358885
+    },
+    {
+      "date": "2019-12-22",
+      "value": 128333921.63062963
+    },
+    {
+      "date": "2019-12-29",
+      "value": 129082918.59913965
+    },
+    {
+      "date": "2020-01-05",
+      "value": 128876948.08027503
+    },
+    {
+      "date": "2020-01-12",
+      "value": 130092072.98491783
+    },
+    {
+      "date": "2020-01-19",
+      "value": 132652600.89817366
+    },
+    {
+      "date": "2020-01-26",
+      "value": 131292053.57062073
+    },
+    {
+      "date": "2020-02-02",
+      "value": 128505236.26742414
+    },
+    {
+      "date": "2020-02-09",
+      "value": 132576499.9660053
+    },
+    {
+      "date": "2020-02-16",
+      "value": 134666114.45506248
+    },
+    {
+      "date": "2020-02-23",
+      "value": 132976496.73677348
+    },
+    {
+      "date": "2020-03-01",
+      "value": 117696598.69490379
+    },
+    {
+      "date": "2020-03-08",
+      "value": 118419703.4495293
+    },
+    {
+      "date": "2020-03-15",
+      "value": 108007473.53172787
+    },
+    {
+      "date": "2020-03-22",
+      "value": 91828380.33697401
+    },
+    {
+      "date": "2020-03-29",
+      "value": 101252572.32141764
+    },
+    {
+      "date": "2020-04-05",
+      "value": 99148212.30409265
+    },
+    {
+      "date": "2020-04-12",
+      "value": 111146880.14871559
+    },
+    {
+      "date": "2020-04-19",
+      "value": 114522934.98651817
+    },
+    {
+      "date": "2020-04-26",
+      "value": 113016177.38131258
+    },
+    {
+      "date": "2020-05-03",
+      "value": 112775940.04444838
+    },
+    {
+      "date": "2020-05-10",
+      "value": 116723705.08048588
+    },
+    {
+      "date": "2020-05-17",
+      "value": 114090266.56043893
+    },
+    {
+      "date": "2020-05-24",
+      "value": 117745601.3145694
+    },
+    {
+      "date": "2020-05-31",
+      "value": 121285802.28366965
+    },
+    {
+      "date": "2020-06-07",
+      "value": 127246682.08592391
+    },
+    {
+      "date": "2020-06-14",
+      "value": 121166281.80124573
+    },
+    {
+      "date": "2020-06-21",
+      "value": 123414459.35219048
+    },
+    {
+      "date": "2020-06-28",
+      "value": 119881037.82451682
+    },
+    {
+      "date": "2020-07-05",
+      "value": 124700102.11959155
+    },
+    {
+      "date": "2020-07-12",
+      "value": 126892507.33604586
+    },
+    {
+      "date": "2020-07-19",
+      "value": 128473760.98412946
+    },
+    {
+      "date": "2020-07-26",
+      "value": 128111211.6301363
+    },
+    {
+      "date": "2020-08-02",
+      "value": 130321951.49090777
+    },
+    {
+      "date": "2020-08-09",
+      "value": 133515535.2796973
+    },
+    {
+      "date": "2020-08-16",
+      "value": 134374890.27177355
+    },
+    {
+      "date": "2020-08-23",
+      "value": 135343397.18879774
+    },
+    {
+      "date": "2020-08-30",
+      "value": 139759682.90500098
+    },
+    {
+      "date": "2020-09-06",
+      "value": 136530635.92619535
+    },
+    {
+      "date": "2020-09-13",
+      "value": 133104780.8873828
+    },
+    {
+      "date": "2020-09-20",
+      "value": 132248217.43001164
+    },
+    {
+      "date": "2020-09-27",
+      "value": 131411175.26237237
+    },
+    {
+      "date": "2020-10-04",
+      "value": 133401588.14008187
+    },
+    {
+      "date": "2020-10-11",
+      "value": 138529812.47209045
+    },
+    {
+      "date": "2020-10-18",
+      "value": 138795552.95876873
+    },
+    {
+      "date": "2020-10-25",
+      "value": 138061690.5825969
+    },
+    {
+      "date": "2020-11-01",
+      "value": 130275730.67934547
+    },
+    {
+      "date": "2020-11-08",
+      "value": 139816651.61150795
+    },
+    {
+      "date": "2020-11-15",
+      "value": 142832948.63002244
+    },
+    {
+      "date": "2020-11-22",
+      "value": 141732967.23701164
+    },
+    {
+      "date": "2020-11-29",
+      "value": 144952452.96628743
+    },
+    {
+      "date": "2020-12-06",
+      "value": 147373540.3167154
+    },
+    {
+      "date": "2020-12-13",
+      "value": 145952833.95727837
+    },
+    {
+      "date": "2020-12-20",
+      "value": 147783487.4010838
+    },
+    {
+      "date": "2020-12-27",
+      "value": 147530508.2159143
+    },
+    {
+      "date": "2021-01-03",
+      "value": 149642435.52940843
+    },
+    {
+      "date": "2021-01-10",
+      "value": 152375863.5155457
+    },
+    {
+      "date": "2021-01-17",
+      "value": 150127685.96460092
+    },
+    {
+      "date": "2021-01-24",
+      "value": 153044781.37176767
+    },
+    {
+      "date": "2021-01-31",
+      "value": 147975918.4902989
+    },
+    {
+      "date": "2021-02-07",
+      "value": 154851935.3457216
+    },
+    {
+      "date": "2021-02-14",
+      "value": 156764263.06450376
+    },
+    {
+      "date": "2021-02-21",
+      "value": 155643953.07381505
+    },
+    {
+      "date": "2021-02-28",
+      "value": 151836824.97262183
+    },
+    {
+      "date": "2021-03-07",
+      "value": 153063505.08015528
+    },
+    {
+      "date": "2021-03-14",
+      "value": 157103303.22204357
+    },
+    {
+      "date": "2021-03-21",
+      "value": 155898537.1482749
+    },
+    {
+      "date": "2021-03-28",
+      "value": 158346314.29393163
+    },
+    {
+      "date": "2021-04-04",
+      "value": 160152271.8958691
+    },
+    {
+      "date": "2021-04-11",
+      "value": 164492048.16263008
+    },
+    {
+      "date": "2021-04-18",
+      "value": 166749806.41630822
+    },
+    {
+      "date": "2021-04-25",
+      "value": 166538641.8921039
+    },
+    {
+      "date": "2021-05-02",
+      "value": 166578482.05291188
+    },
+    {
+      "date": "2021-05-09",
+      "value": 168627468.5264186
+    },
+    {
+      "date": "2021-05-16",
+      "value": 166286859.07895088
+    },
+    {
+      "date": "2021-05-23",
+      "value": 165570125.24847794
+    },
+    {
+      "date": "2021-05-30",
+      "value": 167492413.00746208
+    },
+    {
+      "date": "2021-06-06",
+      "value": 168519503.24688533
+    },
+    {
+      "date": "2021-06-13",
+      "value": 169218690.2877836
+    },
+    {
+      "date": "2021-06-20",
+      "value": 165992045.77961263
+    },
+    {
+      "date": "2021-06-27",
+      "value": 170543784.15192223
+    },
+    {
+      "date": "2021-07-04",
+      "value": 173397919.26589808
+    },
+    {
+      "date": "2021-07-11",
+      "value": 174083566.8771468
+    },
+    {
+      "date": "2021-07-18",
+      "value": 172394756.46680382
+    },
+    {
+      "date": "2021-07-25",
+      "value": 175766424.6072128
+    },
+    {
+      "date": "2021-08-01",
+      "value": 175107855.85526323
+    },
+    {
+      "date": "2021-08-08",
+      "value": 176751671.00586554
+    },
+    {
+      "date": "2021-08-15",
+      "value": 178005838.489972
+    },
+    {
+      "date": "2021-08-22",
+      "value": 176956843.9433858
+    },
+    {
+      "date": "2021-08-29",
+      "value": 179654030.61136624
+    },
+    {
+      "date": "2021-09-05",
+      "value": 180692267.53640616
+    },
+    {
+      "date": "2021-09-12",
+      "value": 177630547.28767362
+    },
+    {
+      "date": "2021-09-19",
+      "value": 176611043.797623
+    },
+    {
+      "date": "2021-09-26",
+      "value": 177507038.89852825
+    },
+    {
+      "date": "2021-10-03",
+      "value": 173585175.8029769
+    },
+    {
+      "date": "2021-10-10",
+      "value": 174951685.53740856
+    },
+    {
+      "date": "2021-10-17",
+      "value": 178140104.50066367
+    },
+    {
+      "date": "2021-10-24",
+      "value": 181069542.96546355
+    },
+    {
+      "date": "2021-10-31",
+      "value": 183479075.11300093
+    },
+    {
+      "date": "2021-11-07",
+      "value": 187150342.04081392
+    },
+    {
+      "date": "2021-11-14",
+      "value": 186565500.93020338
+    },
+    {
+      "date": "2021-11-21",
+      "value": 187167480.31311473
+    },
+    {
+      "date": "2021-11-28",
+      "value": 183050404.3202451
+    },
+    {
+      "date": "2021-12-05",
+      "value": 180811788.01883015
+    },
+    {
+      "date": "2021-12-12",
+      "value": 187727635.30845907
+    },
+    {
+      "date": "2021-12-19",
+      "value": 184087046.0825964
+    },
+    {
+      "date": "2021-12-26",
+      "value": 188276235.10091284
+    },
+    {
+      "date": "2022-01-02",
+      "value": 189885384.64284337
+    },
+    {
+      "date": "2022-01-09",
+      "value": 186333618.7442508
+    },
+    {
+      "date": "2022-01-16",
+      "value": 185768697.71404418
+    },
+    {
+      "date": "2022-01-23",
+      "value": 175214634.48938194
+    },
+    {
+      "date": "2022-01-30",
+      "value": 176565620.5674051
+    },
+    {
+      "date": "2022-02-06",
+      "value": 179301830.36164567
+    },
+    {
+      "date": "2022-02-13",
+      "value": 176039333.5993882
+    },
+    {
+      "date": "2022-02-20",
+      "value": 173259684.8016886
+    },
+    {
+      "date": "2022-02-27",
+      "value": 174685157.1959879
+    },
+    {
+      "date": "2022-03-06",
+      "value": 172462881.58552936
+    },
+    {
+      "date": "2022-03-13",
+      "value": 167500388.8209053
+    },
+    {
+      "date": "2022-03-20",
+      "value": 177811423.17399824
+    },
+    {
+      "date": "2022-03-27",
+      "value": 180996243.29460222
+    },
+    {
+      "date": "2022-04-03",
+      "value": 181107787.96358314
+    },
+    {
+      "date": "2022-04-10",
+      "value": 178813788.39174813
+    },
+    {
+      "date": "2022-04-17",
+      "value": 175001485.73841873
+    },
+    {
+      "date": "2022-04-24",
+      "value": 170188393.5768245
+    },
+    {
+      "date": "2022-05-01",
+      "value": 164616762.6503939
+    },
+    {
+      "date": "2022-05-08",
+      "value": 164274522.44087508
+    },
+    {
+      "date": "2022-05-15",
+      "value": 160312420.39384362
+    },
+    {
+      "date": "2022-05-22",
+      "value": 155430814.04945365
+    },
+    {
+      "date": "2022-05-29",
+      "value": 165664959.61563572
+    },
+    {
+      "date": "2022-06-05",
+      "value": 163684895.84219864
+    },
+    {
+      "date": "2022-06-12",
+      "value": 155410893.9690497
+    },
+    {
+      "date": "2022-06-19",
+      "value": 146406220.04510605
+    },
+    {
+      "date": "2022-06-26",
+      "value": 155844350.24987146
+    },
+    {
+      "date": "2022-07-03",
+      "value": 152401765.45603216
+    },
+    {
+      "date": "2022-07-10",
+      "value": 155351921.5825803
+    },
+    {
+      "date": "2022-07-17",
+      "value": 153908912.12530816
+    },
+    {
+      "date": "2022-07-24",
+      "value": 157831971.59287593
+    },
+    {
+      "date": "2022-07-31",
+      "value": 164551419.3397718
+    },
+    {
+      "date": "2022-08-07",
+      "value": 165145033.84516975
+    },
+    {
+      "date": "2022-08-14",
+      "value": 170521860.39155594
+    },
+    {
+      "date": "2022-08-21",
+      "value": 168463322.39512113
+    },
+    {
+      "date": "2022-08-28",
+      "value": 161657823.4024567
+    },
+    {
+      "date": "2022-09-04",
+      "value": 156343149.8413153
+    },
+    {
+      "date": "2022-09-11",
+      "value": 162044280.74357527
+    },
+    {
+      "date": "2022-09-18",
+      "value": 154314093.17481428
+    },
+    {
+      "date": "2022-09-25",
+      "value": 147138876.3226597
+    },
+    {
+      "date": "2022-10-02",
+      "value": 142851682.06501192
+    },
+    {
+      "date": "2022-10-09",
+      "value": 145004636.18472868
+    },
+    {
+      "date": "2022-10-16",
+      "value": 142750087.70963123
+    },
+    {
+      "date": "2022-10-23",
+      "value": 149510163.47207767
+    },
+    {
+      "date": "2022-10-30",
+      "value": 155418860.05589086
+    },
+    {
+      "date": "2022-11-06",
+      "value": 150219320.27977976
+    },
+    {
+      "date": "2022-11-13",
+      "value": 159078970.57148534
+    },
+    {
+      "date": "2022-11-20",
+      "value": 157979786.75981882
+    },
+    {
+      "date": "2022-11-27",
+      "value": 160401272.90091893
+    },
+    {
+      "date": "2022-12-04",
+      "value": 162217180.81645665
+    },
+    {
+      "date": "2022-12-11",
+      "value": 156746327.21085885
+    },
+    {
+      "date": "2022-12-18",
+      "value": 153478646.16986346
+    },
+    {
+      "date": "2022-12-25",
+      "value": 153178249.80111519
+    },
+    {
+      "date": "2023-01-01",
+      "value": 152966297.42216834
+    },
+    {
+      "date": "2023-01-08",
+      "value": 155180616.6723874
+    },
+    {
+      "date": "2023-01-15",
+      "value": 159324392.18708754
+    },
+    {
+      "date": "2023-01-22",
+      "value": 158269425.50702083
+    },
+    {
+      "date": "2023-01-29",
+      "value": 162171767.31284028
+    },
+    {
+      "date": "2023-02-05",
+      "value": 164798027.60078853
+    },
+    {
+      "date": "2023-02-12",
+      "value": 162964582.62227803
+    },
+    {
+      "date": "2023-02-19",
+      "value": 162511605.0517244
+    },
+    {
+      "date": "2023-02-26",
+      "value": 158167033.57029587
+    },
+    {
+      "date": "2023-03-05",
+      "value": 161178943.8914167
+    },
+    {
+      "date": "2023-03-12",
+      "value": 153846370.0759928
+    },
+    {
+      "date": "2023-03-19",
+      "value": 156039563.14718962
+    },
+    {
+      "date": "2023-03-26",
+      "value": 158204879.77774304
+    },
+    {
+      "date": "2023-04-02",
+      "value": 163715573.54414877
+    },
+    {
+      "date": "2023-04-09",
+      "value": 163544657.69802633
+    },
+    {
+      "date": "2023-04-16",
+      "value": 164844248.4123509
+    },
+    {
+      "date": "2023-04-23",
+      "value": 164680102.28105325
+    },
+    {
+      "date": "2023-04-30",
+      "value": 166112752.90745127
+    },
+    {
+      "date": "2023-05-07",
+      "value": 164788865.14193085
+    },
+    {
+      "date": "2023-05-14",
+      "value": 164304013.4974105
+    },
+    {
+      "date": "2023-05-21",
+      "value": 167009156.52563035
+    },
+    {
+      "date": "2023-05-28",
+      "value": 167545812.05112317
+    },
+    {
+      "date": "2023-06-04",
+      "value": 170610314.107959
+    },
+    {
+      "date": "2023-06-11",
+      "value": 171267268.2440164
+    },
+    {
+      "date": "2023-06-18",
+      "value": 175678768.47215387
+    },
+    {
+      "date": "2023-06-25",
+      "value": 173238169.5585958
+    },
+    {
+      "date": "2023-07-02",
+      "value": 177303850.18776688
+    },
+    {
+      "date": "2023-07-09",
+      "value": 175254883.16746366
+    },
+    {
+      "date": "2023-07-16",
+      "value": 179496654.19489336
+    },
+    {
+      "date": "2023-07-23",
+      "value": 180728508.85456297
+    },
+    {
+      "date": "2023-07-30",
+      "value": 182556779.28093737
+    },
+    {
+      "date": "2023-08-06",
+      "value": 178405426.74346635
+    },
+    {
+      "date": "2023-08-13",
+      "value": 177848462.07349923
+    },
+    {
+      "date": "2023-08-20",
+      "value": 174089947.5279013
+    },
+    {
+      "date": "2023-08-27",
+      "value": 175524193.31698784
+    },
+    {
+      "date": "2023-09-03",
+      "value": 179909003.74989653
+    },
+    {
+      "date": "2023-09-10",
+      "value": 177587127.73741806
+    },
+    {
+      "date": "2023-09-17",
+      "value": 177301457.44373402
+    },
+    {
+      "date": "2023-09-24",
+      "value": 172111887.43442664
+    },
+    {
+      "date": "2023-10-01",
+      "value": 170836593.771298
+    },
+    {
+      "date": "2023-10-08",
+      "value": 171651332.84110215
+    },
+    {
+      "date": "2023-10-15",
+      "value": 172419442.5820701
+    },
+    {
+      "date": "2023-10-22",
+      "value": 168291219.9035838
+    },
+    {
+      "date": "2023-10-29",
+      "value": 164036687.5746453
+    },
+    {
+      "date": "2023-11-05",
+      "value": 173636960.23074582
+    },
+    {
+      "date": "2023-11-12",
+      "value": 175903880.9432816
+    },
+    {
+      "date": "2023-11-19",
+      "value": 179839283.46848246
+    },
+    {
+      "date": "2023-11-26",
+      "value": 181644832.553146
+    },
+    {
+      "date": "2023-12-03",
+      "value": 183050793.38431525
+    },
+    {
+      "date": "2023-12-10",
+      "value": 183438845.88812247
+    },
+    {
+      "date": "2023-12-17",
+      "value": 188013286.1489393
+    },
+    {
+      "date": "2023-12-24",
+      "value": 189425219.11358902
+    },
+    {
+      "date": "2023-12-31",
+      "value": 190030797.3391514
+    },
+    {
+      "date": "2024-01-07",
+      "value": 187138806.2911266
+    },
+    {
+      "date": "2024-01-14",
+      "value": 190588559.5904629
+    },
+    {
+      "date": "2024-01-21",
+      "value": 192818811.01436442
+    },
+    {
+      "date": "2024-01-28",
+      "value": 194857039.86632487
+    },
+    {
+      "date": "2024-02-04",
+      "value": 197551814.33706883
+    },
+    {
+      "date": "2024-02-11",
+      "value": 200260945.2720102
+    },
+    {
+      "date": "2024-02-18",
+      "value": 199422706.73235437
+    },
+    {
+      "date": "2024-02-25",
+      "value": 202738602.53827286
+    },
+    {
+      "date": "2024-03-03",
+      "value": 204662096.3958753
+    },
+    {
+      "date": "2024-03-10",
+      "value": 204128631.19575974
+    },
+    {
+      "date": "2024-03-17",
+      "value": 203865682.24378648
+    },
+    {
+      "date": "2024-03-24",
+      "value": 208530579.90096912
+    },
+    {
+      "date": "2024-03-31",
+      "value": 209334152.83195314
+    },
+    {
+      "date": "2024-04-07",
+      "value": 207341736.27428114
+    },
+    {
+      "date": "2024-04-14",
+      "value": 204117484.51014304
+    },
+    {
+      "date": "2024-04-21",
+      "value": 197895241.19200233
+    },
+    {
+      "date": "2024-04-28",
+      "value": 203183224.95791486
+    },
+    {
+      "date": "2024-05-05",
+      "value": 204291979.745713
+    },
+    {
+      "date": "2024-05-12",
+      "value": 208072418.0516775
+    },
+    {
+      "date": "2024-05-19",
+      "value": 211283130.38616598
+    },
+    {
+      "date": "2024-05-26",
+      "value": 211340906.4006189
+    },
+    {
+      "date": "2024-06-02",
+      "value": 210256837.72808704
+    },
+    {
+      "date": "2024-06-09",
+      "value": 213024950.7760996
+    },
+    {
+      "date": "2024-06-16",
+      "value": 216395821.33516425
+    },
+    {
+      "date": "2024-06-23",
+      "value": 217711344.22317123
+    },
+    {
+      "date": "2024-06-30",
+      "value": 217546400.51052925
+    },
+    {
+      "date": "2024-07-07",
+      "value": 221797742.51409054
+    },
+    {
+      "date": "2024-07-14",
+      "value": 223716450.8836271
+    },
+    {
+      "date": "2024-07-21",
+      "value": 219320085.24782786
+    },
+    {
+      "date": "2024-07-28",
+      "value": 217491425.75738314
+    },
+    {
+      "date": "2024-08-04",
+      "value": 213007812.5037989
+    },
+    {
+      "date": "2024-08-11",
+      "value": 212912200.00850052
+    },
+    {
+      "date": "2024-08-18",
+      "value": 221282213.16762003
+    },
+    {
+      "date": "2024-08-25",
+      "value": 224483763.0432508
+    },
+    {
+      "date": "2024-09-01",
+      "value": 225033160.41704887
+    },
+    {
+      "date": "2024-09-08",
+      "value": 215472319.40448242
+    },
+    {
+      "date": "2024-09-15",
+      "value": 224141542.28693554
+    },
+    {
+      "date": "2024-09-22",
+      "value": 227190501.23415935
+    },
+    {
+      "date": "2024-09-29",
+      "value": 228609612.4309078
+    },
+    {
+      "date": "2024-10-06",
+      "value": 229123546.61468974
+    },
+    {
+      "date": "2024-10-13",
+      "value": 231671721.74371064
+    },
+    {
+      "date": "2024-10-20",
+      "value": 233649392.77311483
+    },
+    {
+      "date": "2024-10-27",
+      "value": 231396439.460706
+    },
+    {
+      "date": "2024-11-03",
+      "value": 228236305.45536816
+    },
+    {
+      "date": "2024-11-10",
+      "value": 238863279.28682148
+    },
+    {
+      "date": "2024-11-17",
+      "value": 233886449.51120356
+    },
+    {
+      "date": "2024-11-24",
+      "value": 237819459.29237148
+    },
+    {
+      "date": "2024-12-01",
+      "value": 240330984.58596164
+    },
+    {
+      "date": "2024-12-08",
+      "value": 242637336.94203156
+    },
+    {
+      "date": "2024-12-15",
+      "value": 241076392.43842226
+    },
+    {
+      "date": "2024-12-22",
+      "value": 236286021.61853883
+    },
+    {
+      "date": "2024-12-29",
+      "value": 237879219.5335834
+    },
+    {
+      "date": "2025-01-05",
+      "value": 236748968.9558962
+    },
+    {
+      "date": "2025-01-12",
+      "value": 232150212.19067994
+    },
+    {
+      "date": "2025-01-19",
+      "value": 238907904.93569526
+    },
+    {
+      "date": "2025-01-26",
+      "value": 243074392.06550437
+    },
+    {
+      "date": "2025-02-02",
+      "value": 240655678.0059058
+    },
+    {
+      "date": "2025-02-09",
+      "value": 240076419.9647053
+    },
+    {
+      "date": "2025-02-16",
+      "value": 243607837.8124165
+    },
+    {
+      "date": "2025-02-23",
+      "value": 239564061.49040842
+    },
+    {
+      "date": "2025-03-02",
+      "value": 237228237.53100652
+    },
+    {
+      "date": "2025-03-09",
+      "value": 229885703.67538065
+    },
+    {
+      "date": "2025-03-16",
+      "value": 224656274.0520618
+    },
+    {
+      "date": "2025-03-23",
+      "value": 225796504.12315443
+    },
+    {
+      "date": "2025-03-30",
+      "value": 222345544.7252
+    },
+    {
+      "date": "2025-04-06",
+      "value": 202152166.26497367
+    },
+    {
+      "date": "2025-04-13",
+      "value": 213677119.42409128
+    },
+    {
+      "date": "2025-04-20",
+      "value": 210463625.28149953
+    },
+    {
+      "date": "2025-04-27",
+      "value": 220125253.34150058
+    },
+    {
+      "date": "2025-05-04",
+      "value": 226557844.14929774
+    },
+    {
+      "date": "2025-05-11",
+      "value": 225491730.7836144
+    },
+    {
+      "date": "2025-05-18",
+      "value": 237382812.68617266
+    },
+    {
+      "date": "2025-05-25",
+      "value": 231185274.93650177
+    },
+    {
+      "date": "2025-06-01",
+      "value": 235522677.9124334
+    },
+    {
+      "date": "2025-06-08",
+      "value": 239055301.8587628
+    },
+    {
+      "date": "2025-06-15",
+      "value": 238123454.5037711
+    },
+    {
+      "date": "2025-06-22",
+      "value": 237759699.0511598
+    },
+    {
+      "date": "2025-06-29",
+      "value": 245936094.4756496
+    },
+    {
+      "date": "2025-07-06",
+      "value": 250170317.6601137
+    },
+    {
+      "date": "2025-07-13",
+      "value": 249389446.617637
+    },
+    {
+      "date": "2025-07-20",
+      "value": 250865127.73022017
+    },
+    {
+      "date": "2025-07-27",
+      "value": 254524450.3910721
+    },
+    {
+      "date": "2025-08-03",
+      "value": 248523312.1841341
+    },
+    {
+      "date": "2025-08-10",
+      "value": 254556723.25571087
+    },
+    {
+      "date": "2025-08-17",
+      "value": 256961061.39790863
+    },
+    {
+      "date": "2025-08-24",
+      "value": 257642740.55563936
+    },
+    {
+      "date": "2025-08-31",
+      "value": 257377787.92370367
+    },
+    {
+      "date": "2025-09-07",
+      "value": 258224002.27680248
+    },
+    {
+      "date": "2025-09-14",
+      "value": 262319173.96250904
+    },
+    {
+      "date": "2025-09-21",
+      "value": 265509168.63524923
+    },
+    {
+      "date": "2025-09-28",
+      "value": 264686084.1411351
+    },
+    {
+      "date": "2025-10-05",
+      "value": 267558155.10875604
+    },
+    {
+      "date": "2025-10-12",
+      "value": 261053042.75823805
+    },
+    {
+      "date": "2025-10-19",
+      "value": 265495220.68832582
+    },
+    {
+      "date": "2025-10-26",
+      "value": 270582019.42343956
+    },
+    {
+      "date": "2025-11-02",
+      "value": 272514675.73989964
+    },
+    {
+      "date": "2025-11-09",
+      "value": 268076466.26332992
+    },
+    {
+      "date": "2025-11-16",
+      "value": 268288019.8516047
+    },
+    {
+      "date": "2025-11-23",
+      "value": 263064192.75089946
+    },
+    {
+      "date": "2025-11-30",
+      "value": 272868840.76317596
+    },
+    {
+      "date": "2025-12-07",
+      "value": 273717836.92437816
+    },
+    {
+      "date": "2025-12-14",
+      "value": 272005118.52690977
+    },
+    {
+      "date": "2025-12-21",
+      "value": 272287579.04201305
+    },
+    {
+      "date": "2025-12-28",
+      "value": 276089921.65514046
+    },
+    {
+      "date": "2026-01-04",
+      "value": 273242556.25598943
+    },
+    {
+      "date": "2026-01-11",
+      "value": 277537706.87387663
+    },
+    {
+      "date": "2026-01-18",
+      "value": 276491105.0713234
+    },
+    {
+      "date": "2026-01-25",
+      "value": 275519009.03824985
+    },
+    {
+      "date": "2026-02-01",
+      "value": 276452062.4918597
+    },
+    {
+      "date": "2026-02-08",
+      "value": 276183938.98775035
+    },
+    {
+      "date": "2026-02-15",
+      "value": 272354108.99804986
+    },
+    {
+      "date": "2026-02-22",
+      "value": 275275980.1666806
+    },
+    {
+      "date": "2026-03-01",
+      "value": 274055680.70990163
+    }
+  ]
+}

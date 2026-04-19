@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EGI 투자 분석 대시보드</title>
+    <meta name="description" content="EGI(Efficiency Growth Index) 기반 투자 분석 및 백테스팅 결과 대시보드">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.0/dist/chart.umd.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chartjs-adapter-date-fns@3.0.0/dist/chartjs-adapter-date-fns.bundle.min.js"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Header -->
+    <header id="main-header">
+        <div class="header-content">
+            <div class="logo-section">
+                <div class="logo-icon">
+                    <svg width="36" height="36" viewBox="0 0 36 36" fill="none">
+                        <rect width="36" height="36" rx="8" fill="url(#grad1)"/>
+                        <path d="M10 26L14 18L18 22L22 12L26 16" stroke="white" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+                        <defs><linearGradient id="grad1" x1="0" y1="0" x2="36" y2="36"><stop offset="0%" stop-color="#6366f1"/><stop offset="100%" stop-color="#06b6d4"/></linearGradient></defs>
+                    </svg>
+                </div>
+                <div>
+                    <h1>EGI Dashboard</h1>
+                    <p class="subtitle">Efficiency Growth Index · 투자 분석 시스템</p>
+                </div>
+            </div>
+            <div class="header-info">
+                <span id="generated-time" class="time-badge"></span>
+                <span id="company-count" class="count-badge"></span>
+            </div>
+        </div>
+    </header>
+
+    <!-- Formula Banner -->
+    <section id="formula-banner">
+        <div class="formula-card">
+            <div class="formula-label">CORE FORMULA</div>
+            <div class="formula-text">
+                EGI = <span class="fraction"><span class="numerator">Total Gain</span><span class="denominator">Total Loss</span></span> × 100
+            </div>
+            <div class="formula-detail">
+                <div class="gain-def">
+                    <span class="tag gain-tag">Total Gain</span>
+                    영업이익 + R&D 투자액 + 현금성 자산 증가분
+                </div>
+                <div class="loss-def">
+                    <span class="tag loss-tag">Total Loss</span>
+                    판매비·관리비 + 재고 자산 손실 + 영업외 비용
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Backtest Metrics -->
+    <section id="metrics-section">
+        <h2 class="section-title">📈 백테스팅 성과</h2>
+        <div class="metrics-grid" id="metrics-grid"></div>
+    </section>
+
+    <!-- Equity Curve -->
+    <section id="equity-section">
+        <h2 class="section-title">💰 자산 곡선 (Equity Curve)</h2>
+        <div class="chart-container large-chart">
+            <canvas id="equityChart"></canvas>
+        </div>
+    </section>
+
+    <!-- Portfolio Composition -->
+    <section id="portfolio-section">
+        <div class="two-col">
+            <div>
+                <h2 class="section-title">🎯 포트폴리오 구성</h2>
+                <div class="chart-container">
+                    <canvas id="portfolioChart"></canvas>
+                </div>
+            </div>
+            <div>
+                <h2 class="section-title">📊 포트폴리오 상세</h2>
+                <div class="portfolio-table-wrap" id="portfolio-table-wrap"></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Company EGI Analysis -->
+    <section id="company-section">
+        <h2 class="section-title">🏢 기업별 EGI 분석</h2>
+        <div class="company-cards" id="company-cards"></div>
+    </section>
+
+    <!-- Trade History -->
+    <section id="trade-section">
+        <h2 class="section-title">📋 매매 시그널 내역</h2>
+        <div class="trade-table-wrap">
+            <table id="trade-table">
+                <thead>
+                    <tr>
+                        <th>연도</th>
+                        <th>기업</th>
+                        <th>티커</th>
+                        <th>EGI</th>
+                        <th>시그널</th>
+                        <th>가중치</th>
+                    </tr>
+                </thead>
+                <tbody id="trade-tbody"></tbody>
+            </table>
+        </div>
+    </section>
+
+    <footer id="main-footer">
+        <p>EGI Investment Analysis System · Powered by EGI (Efficiency Growth Index)</p>
+        <p class="footer-sub">Total Gain / Total Loss × 100 — 산업공학적 운영 효율성 분석</p>
+    </footer>
+
+    <script src="app.js"></script>
+</body>
+</html>
